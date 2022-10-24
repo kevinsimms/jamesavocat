@@ -1,0 +1,132 @@
+
+
+.logo1{
+width:356,25px;
+height: 33px;
+margin-top: -15px;
+z-index: 150;
+position: absolute;
+}
+
+
+
+
+#menutitles{
+   margin-left: 50%;
+    margin-top: 15px;
+}
+
+
+#menutitles li{
+    margin-top: 30px;
+display: inline-block;
+margin-right: 50px;
+font-size: 13px;
+font-family: Helvetica;
+font-weight: 100;
+}
+
+
+#wrap{
+    height: 400px;
+    width: 100%;
+  
+}
+
+
+
+
+#verticalline{
+    height:45px;
+    width:1px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 28px;
+}
+
+#menutitles li:hover{
+    color:#FFAA46;
+
+}
+
+
+.drapeauuk{
+    width:27px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -54px;
+
+}
+
+#button{
+    margin-top: 20px;
+    display: none;
+    z-index: 11;
+}
+
+#togglemenu{
+margin-left: -501px;
+    position: fixed;
+    width:350px;
+    height: 100%;
+    background-color: #15284A;
+    display: block;
+   /* margin-left:60%; */
+   margin-top:-40px;
+   z-index: 10;
+ 
+}
+
+
+#menutitles2{
+    margin-top: 180px;
+    color: #FFF;
+    list-style-type: none;
+    font-family: Helvetica;
+}
+
+#menutitles2 li{
+    margin-top: 25px;
+    font-weight: 100;
+    
+}
+
+
+
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  /* The element to apply the animation to */
+ #menu1 {
+   
+    
+    animation-name: example;
+    animation-duration: 0.8s;
+  }
+
+  #menu2 {
+   
+    
+    animation-name: example;
+    animation-duration: 1.6s;
+  }
+  #menu3 {
+   
+    
+    animation-name: example;
+    animation-duration: 2.4s;
+  }
+  #menu4 {
+   
+   
+    animation-name: example;
+    animation-duration: 3.2s;
+    
+  }
+
+
