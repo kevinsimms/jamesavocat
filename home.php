@@ -133,6 +133,7 @@ include "menu.php";
 <img src="images/maispasque.jpeg" alt ="photo1" class="photomaispasque" > 
 <div id="firstwindow"></div>
 <div id="secondwindow"></div>
+<div id="thirdwindow"></div>
 
 
 
