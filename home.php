@@ -6,6 +6,8 @@
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
  <link rel="stylesheet" href="homepage.css">
+
+ <link rel="stylesheet" href="footercss.css">
  <!--   <script src="script.js"></script> -->
 </head>
 <body>
@@ -14,6 +16,11 @@
 <?php
 include "menu.php";
 ?>
+
+
+<!-- first part -->
+
+
 
 <div id="firstwrap">
 
@@ -24,6 +31,9 @@ include "menu.php";
 </div>
 
 </div>
+
+
+<!-- second part -->
 
 
  <div id="secondpart">
@@ -37,13 +47,20 @@ include "menu.php";
   <img src="images/table.jpeg" alt ="photo1" class="phototable" > 
 </div>
 
-
+<div id="verticalline2"></div>
+<div id="verticalline3"></div>
 
 </div> 
 
 
+<!-- third part -->
+
+
 <img src="images/photoensembleavocat.jpeg" alt ="photo1" class="photoensemble" > 
 
+
+
+<!-- fourth part -->
 
 
 <div id="fourthpart">
@@ -84,7 +101,7 @@ include "menu.php";
 <div id="poster1">
 <img src="images/mery.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
-<h5>Avocat associée</h5>
+<h5>Avocat collaborateur</h5>
 </div>
 
 
@@ -93,7 +110,7 @@ include "menu.php";
 <div id="poster1">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Malike</h4><h4 class="surname"> CUSSET</h4>
-<h5>Avocat associée</h5>
+<h5>Assistance juridique</h5>
 </div>
 
 
@@ -114,12 +131,13 @@ include "menu.php";
 
 
 
-<div id="partenairewrap">
-<h4 id="nospartenaires">Nos Partenaires </h4>
-</div>
+<!-- fifth part -->
 
 
 <div id="avocatmaispasque">
+
+<div id="verticalline4"></div>
+
 
 <div id="maispasquetitle">  
   <h2>AVOCATS, MAIS PAS QUE</h2>
@@ -130,10 +148,40 @@ include "menu.php";
 
 <div id="windowswrap">
 
-<img src="images/maispasque.jpeg" alt ="photo1" class="photomaispasque" > 
-<div id="firstwindow"></div>
-<div id="secondwindow"></div>
-<div id="thirdwindow"></div>
+<img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
+<div id="firstwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
+<div id="secondwindow"> <div class="etiquettemaispasque"> DROIT COMMERCIAL</div>  </div>
+<div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div>  </div>
+
+<div id="verticalbar1"></div>
+<div id="verticalbar2"></div> 
+
+
+</div>
+
+
+<div id="secondwindowline">
+<img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
+<div id="fourthwindow">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
+<div id="fifthwindow">  <div class="etiquettemaispasque"> DROIT FISCAL</div> </div>
+<div id="sixthwindow">  <div class="etiquettemaispasque"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
+<div id="verticalbar1"></div>
+<div id="verticalbar2"></div> 
+
+</div>
+
+
+
+
+<!--  <div id="horizontalbar"></div> -->
+
+
+
+
+
+
+
+
 
 
 
@@ -143,12 +191,9 @@ include "menu.php";
 </div>
 
 
-
-
-
-
-</div>
-
+<?php
+include "footer.php";
+?>
 
 
 

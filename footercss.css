@@ -1,0 +1,32 @@
+#footerwrap{
+    background-color: black;
+    height: 130px;
+margin-top: -300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+#footerleft{
+    padding-top: 15px;
+    padding-left: 5%;
+    color: white;
+}
+
+#footerright{
+   
+    padding-top: 15px;
+    padding-left: 10%;
+    color: white;
+}
+
+
+#verticalline5{
+    height:45px;
+    width:1px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 0px;
+}
