@@ -4,9 +4,9 @@
 
 <img src="images/jamesavocatslogo.jpeg" alt ="logo1" class="logo1" > 
 
-
+<div id="vlinewrap">
 <div id="verticalline"></div>
-
+</div>
 
 <ul id="menutitles">
 

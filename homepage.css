@@ -1,11 +1,31 @@
 .mainphotohome1{
-    width: 100%;
+    
+    z-index: -100;
+
+    width: 101.3%;
+margin-left: -8px;
     position: relative;
-    /*  top: -325px;  */
+      top: 325px;  
+      margin-bottom: 200px;
  /*   margin-top: -325px; */
-    z-index: 0;
+   
+    
+
+    animation-name: zoompic;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  
     
 }
+
+@keyframes zoompic {
+    from {transform:scaleY(1.0)}
+    to {transform:scaleY(1.1)}
+  }
+  
+  
+
+
 
 
 
@@ -28,6 +48,7 @@
 padding-top: 10px;
     /* height: 550px; */
     display: block;
+    z-index: 0;
     
     
 }
@@ -45,6 +66,8 @@ padding-top: 10px;
 
 
 #secondpart{
+    width: 101.3%;
+    margin-left: -8px;
     background-color: #2b2c26;
     position: relative;
     top: -333px;
@@ -66,9 +89,7 @@ padding-top: 10px;
     width: 100%;
 }
 
-#busi{
-    color:#FFAA46;
-}
+
 
 
 #secondpartinner2{
@@ -113,9 +134,44 @@ padding-top: 10px;
 /* thirdpart */
     .photoensemble{
 position: relative;
-        width: 100%;
-        top: -333px;
+width: 101.3%;
+margin-left: -8px;
+        top: -335px;
+
+        z-index: -10;
+
+
+
+
     }
+
+
+    .reveal{
+        position: relative;
+        transform: translateY(0px);
+        opacity: 0;
+        transition: 2s all ease;
+      }
+      
+      .reveal.active{
+        transform: translateY(-150px);
+        opacity: 1;
+      }
+
+ 
+  
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
     /* fourthpart */
@@ -126,9 +182,10 @@ position: relative;
 
     #titleoffourth{
     margin-left: 8%;
-    width:300px;
+    width:500px;
     position: relative;
-       
+       font-family: helvetica;
+       font-weight: 100;
         top: -333px;
 
     }
@@ -150,6 +207,8 @@ position: relative;
 
 
  #poster1{
+    
+    font-family: helvetica;
     margin-left: 5%;
     position: relative;
     float: left;
@@ -164,6 +223,7 @@ position: relative;
 
 
  #poster1 h5{
+    font-weight: 100;
     text-align: center;
         width: 200px;
         margin-top: -5px;
@@ -171,6 +231,7 @@ position: relative;
 
 
 .firstname{
+    font-weight: 100;
     margin-top: 10px;
     text-align: center;
         width: 200px;
@@ -179,6 +240,7 @@ position: relative;
 
 
      .surname{
+        font-weight: 100;
         margin-top: -20px;
         text-align: center;
         width: 200px;
@@ -195,12 +257,14 @@ position: relative;
    /*   fifthpart */
 
    #avocatmaispasque{
-    
+    width: 101.3%;
+    margin-left: -8px;
     top: -300px;
     clear: left;
     position: relative;
     background-color: #2b2c26;
-    
+    font-family: helvetica;
+    font-weight: 100;
    
    }
    
@@ -389,4 +453,41 @@ position: relative;
     position: absolute;
     margin-left: 50%;
     margin-top: 0px;
+}
+
+
+
+
+
+@media (max-width: 830px){
+
+
+
+
+    #secondpart{
+       
+        grid-template-columns: 80%;
+       
+    }
+
+
+    #secondpartinner2{
+        width: 100%;
+        margin-left: 15%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .photoensemble{
+       
+                top: -250px;
+        
+        
+        
+        
+        
+            }
+
+
 }

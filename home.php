@@ -38,9 +38,14 @@ include "menu.php";
 
  <div id="secondpart">
 <div id="secondpartinner">
- <p> Disponibilité, accessibilité, créativité et transparence sont au cœur de la relation qu’entretient l’équipe avec ses clients.</p>
- <p>Véritable <span id="busi">Business Partner</span>, JAMES AVOCATS les accompagne dans la durée et leur apporte au quotidien réponses et solutions sur mesure, efficaces, pragmatiques et innovantes, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
-  </div>
+ <p> Après 10 ans de travail en équipe au sein d’un même Cabinet, 
+Anne-Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
+en 2022 <b>JAMES AVOCATS</b>, cabinet qui incarne leur vision résolument moderne de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
+ 
+<p><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.
+Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur apporte au quotidien réponses et <b>solutions sur mesure, efficaces, pragmatiques et innovantes</b>, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
+
+</div>
 
   <div id="secondpartinner2">
 
@@ -56,7 +61,7 @@ include "menu.php";
 <!-- third part -->
 
 
-<img src="images/photoensembleavocat.jpeg" alt ="photo1" class="photoensemble" > 
+<img src="images/photoensemblebig.jpeg" alt ="photo1" class="photoensemble reveal" > 
 
 
 
@@ -142,7 +147,7 @@ include "menu.php";
 <div id="maispasquetitle">  
   <h2>AVOCATS, MAIS PAS QUE</h2>
 
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <p>Véritable partenaire, JAMES AVOCATS accompagne ses clients dans la durée et leur apporte au quotidien réponses et solutions sur mesure, efficaces, pragmatiques et innovantes, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
 </div>
 
 
@@ -198,6 +203,8 @@ include "footer.php";
 
 
 <script src="menustyle/scriptmenu.js"></script>
+
+<script src="homepagejs.js"></script>
 
 </body>
 </html>
