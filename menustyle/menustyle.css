@@ -1,9 +1,17 @@
 
 
 .logo1{
-width:356,25px;
-height: 33px;
+/* width:356,25px;
+height: 33px; */
+
+width: 16vw;
+height: 1.74vw;
+
+max-height: 50px;
+max-width: 480px;
+
 margin-top: 0px;
+margin-left: 12px;
 z-index: 150;
 position: absolute;
 }
@@ -13,15 +21,16 @@ position: absolute;
 
 #menutitles{
    margin-left: 50%;
-    margin-top: 15px;
+    margin-top: 15px; 
 }
 
 
 #menutitles li{
-    margin-top: 30px;
+    margin-top: 30px; 
 display: inline-block;
-margin-right: 50px;
-font-size: 13px;
+margin-right: 5%;
+font-size: 0.8vw;
+
 font-family: Helvetica;
 font-weight: 100;
 }
@@ -31,7 +40,7 @@ font-weight: 100;
     
     position: relative;
     z-index: 100;
-    height: 85px;
+    height: 61px;
     width: 100%;
    
     background-color: white;
@@ -57,7 +66,7 @@ font-weight: 100;
     display: block;
     position: absolute;
     margin-left: 50%;
-    margin-top: 40px;
+    margin-top: 17px;
 }
 
 #menutitles li:hover{
@@ -67,10 +76,11 @@ font-weight: 100;
 
 
 .drapeauuk{
+    position: absolute;
     width:27px;
     float: right;
-    margin-right: 6px;
-    margin-top: -54px;
+    margin-left: 97%;
+    margin-top: 10px;
 
 }
 
@@ -127,20 +137,27 @@ margin-left: -501px;
    
     
     animation-name: example;
-    animation-duration: 1.6s;
+    animation-duration: 1.8s;
   }
   #menu3 {
    
     
     animation-name: example;
-    animation-duration: 2.4s;
+    animation-duration: 2.8s;
   }
   #menu4 {
    
    
     animation-name: example;
-    animation-duration: 3.2s;
+    animation-duration: 3.8s;
     
   }
 
+  #menu5 {
+   
+   
+    animation-name: example;
+    animation-duration: 4.8s;
+    
+  }
 

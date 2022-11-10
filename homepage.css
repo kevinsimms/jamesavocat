@@ -5,8 +5,9 @@
     width: 101.3%;
 margin-left: -8px;
     position: relative;
-      top: 325px;  
+     
       margin-bottom: 200px;
+    
  /*   margin-top: -325px; */
    
     
@@ -18,11 +19,13 @@ margin-left: -8px;
     
 }
 
-@keyframes zoompic {
+ @keyframes zoompic {
     from {transform:scaleY(1.0)}
     to {transform:scaleY(1.1)}
-  }
+  } 
   
+
+ 
   
 
 
@@ -33,17 +36,19 @@ margin-left: -8px;
     position:absolute;
     z-index: 10;
     color: white;
-    margin-top: -22%;
-    width: 500px;
-    margin-left: auto;
+    margin-top: -20%;
+    width: 650px;
+    margin-left: -5%;
     margin-right: auto;
     text-align: center;
+    font-size: 50px;
 }
 
 
 #firstwrap{
-    top: -325px; 
-    border:0px solid red;
+    
+    
+    
     position: relative;
 padding-top: 10px;
     /* height: 550px; */
@@ -54,11 +59,12 @@ padding-top: 10px;
 }
 
 #ftitlewrap{
-    
+    margin-top:-340px;
+   height: 30px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    border:2px solid red;
+    
 }
 
 /* secondpart */
@@ -70,25 +76,52 @@ padding-top: 10px;
     margin-left: -8px;
     background-color: #2b2c26;
     position: relative;
-    top: -333px;
+    
     /* height: 433px; */
     display: grid;
     grid-template-columns: 40% 40%;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Merriweather-Black.ttf);
+    font-weight: 100;
+  }
+
+
+  @font-face {
+    font-family: mySecFont;
+    src: url(HelveticaNeue.ttc);
+    font-weight: 100;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@200&display=swap');
 
 #secondpartinner{
     
     color: white;
-    font-family: helvetica;
-    font-weight: 100;
+    
+    
     padding-top:5%;
-    margin-top: 0px;
+    margin-top: -30px;
     margin-left: 15%;
     width: 100%;
 }
 
+#secondpartinner p{
+    font-weight:100;
+    font-family: Helvetica Neue;
+    width:100%;
+    line-height: 23px;
+}
+
+#secondpartinner h2{
+    font-family: Merriweather;
+    font-size: 40px;
+}
 
 
 
@@ -136,7 +169,7 @@ padding-top: 10px;
 position: relative;
 width: 101.3%;
 margin-left: -8px;
-        top: -335px;
+       
 
         z-index: -10;
 
@@ -154,7 +187,7 @@ margin-left: -8px;
       }
       
       .reveal.active{
-        transform: translateY(-150px);
+        transform: translateY(-250px);
         opacity: 1;
       }
 
@@ -166,42 +199,142 @@ margin-left: -8px;
 
 
 
+ /* fourthpart */
 
 
 
-
-
-
-
-
-    /* fourthpart */
-#fourthpart{
+  .poster1reveal{
     
-    border:0px solid green;
+    opacity: 0;
+    transition: 2s all ease;
+ }
+
+ .poster1reveal.active{
+    opacity: 1;
+   
+ } 
+
+
+
+ .poster1reveal2{
+    
+    opacity: 0;
+    transition: 3s all ease;
+ }
+
+ .poster1reveal2.active{
+    opacity: 1;
+   
+ } 
+
+
+
+ .poster1reveal3{
+    
+    opacity: 0;
+    transition: 4s all ease;
+ }
+
+ .poster1reveal3.active{
+    opacity: 1;
+   
+ } 
+
+
+ .poster1reveal4{
+    
+    opacity: 0;
+    transition: 5s all ease;
+ }
+
+ .poster1reveal4.active{
+    opacity: 1;
+   
+ } 
+
+
+
+ .poster1reveal5{
+    
+    opacity: 0;
+    transition: 6s all ease;
+ }
+
+ .poster1reveal5.active{
+    opacity: 1;
+   
+ } 
+
+
+#thirdpartbis{
+    margin-top: -400px;
+    position: relative;
+    background-color: white;
+    
+    height: 1300px; 
+    width: 101.3%;
+margin-left: -8px;
+
 }
 
-    #titleoffourth{
-    margin-left: 8%;
-    width:500px;
-    position: relative;
-       font-family: helvetica;
-       font-weight: 100;
-        top: -333px;
 
-    }
+#titleoffourth h4{
+    margin-top: 200px;
+    padding-left: 8%;
+    font-size: 40px;
+       font-family: Merriweather;
+       font-weight: 900;
+       
+
+}
+
+
+#titleoffourth p{
+    margin-top: -25px;
+   padding-left: 8%;
+   font-family: Helvetica Neue;
+   font-weight: 200;
+   width: 550px;
+
+
+} 
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
 
     #posterensemble{
-       margin-top: 30px;
-        top: -333px;
+       
+       margin-top: 50px;
+        top: 00px;
         position: relative;
         /* display: grid;
         grid-template-columns:  18% 18% 18% 18% 18%;
       grid-gap: 25px; */
        margin-left: auto;
       margin-right: auto;
-      width: 90%; 
+      width: 94%;
+      margin-left: -8px;
+     /*  padding-left: 6%; */
 
-      border:0px solid red;
+     height: 700px;
+      background-color: white;
+
+
+
+    
       
     }
 
@@ -213,12 +346,15 @@ margin-left: -8px;
     position: relative;
     float: left;
     width: 200px;
+
+    
  }
 
 
  .photoavocat{
     border-radius: 10px;
-    width: 100%;
+    width: 110%;
+    padding-bottom: -100px;
  }
 
 
@@ -226,7 +362,7 @@ margin-left: -8px;
     font-weight: 100;
     text-align: center;
         width: 200px;
-        margin-top: -5px;
+        margin-top: -15px;
      }
 
 
@@ -259,15 +395,53 @@ margin-left: -8px;
    #avocatmaispasque{
     width: 101.3%;
     margin-left: -8px;
-    top: -300px;
+    
+    top: -580px;
     clear: left;
     position: relative;
     background-color: #2b2c26;
-    font-family: helvetica;
+   
     font-weight: 100;
    
    }
+
+   #maispasquetitle h2{
+font-family: Merryweather;
+padding-left: 8%;
+font-size: 40px;
+width: 120%;
+   }
+
+   #maispasquetitle p{
+    font-family: Helvetica Neue;
+    padding-left: 8%;
+    width: 120%;
+   }
    
+   .h2maispasque{
+    
+    opacity: 0;
+    transition: 1s all ease;
+ }
+
+ .h2maispasque.active{
+    opacity: 1;
+   
+ } 
+
+
+ .pmaispasque{
+    
+    opacity: 0;
+    transition: 1s all ease;
+ }
+
+ .pmaispasque.active{
+    opacity: 1;
+   
+ } 
+
+
 
    #maispasquetitle{
    
@@ -377,11 +551,11 @@ margin-left: -8px;
    }
 
    #sixthwindow{
-    left:68%;
+    left:67.5%;
   
     top:0px;
     position: absolute;
-    width:27%;
+    width:28%;
     height: 42%;
    /*  background-color: brown;
     opacity: 0.2; */
@@ -425,6 +599,19 @@ margin-left: -8px;
 
    } 
 
+   #verticalbar3{
+  
+    top: 0px;
+    left:95%;
+    position: absolute;
+    width:4%;
+    height: 150%;
+    background-color: #2b2c26;
+    z-index: 10;
+    
+
+   } 
+
 
 
    .etiquettemaispasque{
@@ -433,10 +620,14 @@ margin-left: -8px;
    
     background-color: white;
 
-   
-    height: 35px;
+   font-family: Helvetica Neue;
+   font-weight: 600;
+   font-size: 10px;
+    height: 20px;
+    width: 95%;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: -5px;
     padding-right: 10px;
    
    }
@@ -458,10 +649,47 @@ margin-left: -8px;
 
 
 
+@media (max-width: 1444px){
+
+
+    #thirdpartbis{
+       
+        
+        height: 1700px; 
+      
+    }
+
+} 
+
+@media (max-width: 757px){
+
+
+    #thirdpartbis{
+       
+        
+        height: 2100px; 
+      
+    }
+
+} 
+
+
+
 
 @media (max-width: 830px){
 
 
+    #firsttitle{
+        position:absolute;
+        z-index: 10;
+        color: white;
+        margin-top: -18%;
+        width: 600px;
+        margin-left: -8%;
+        margin-right: auto;
+        text-align: center;
+        font-size: 40px;
+    }
 
 
     #secondpart{

@@ -1,25 +1,33 @@
 #footerwrap{
+    position: relative;
     background-color: black;
     height: 130px;
-margin-top: -300px;
+margin-top: -580px;
     display: grid;
     grid-template-columns: 50% 50%;
     width: 101.3%;
     margin-left: -8px;
+    font-family: Helvetica Neue;
+    font-weight: 100;
 }
 
 
 #footerleft{
     padding-top: 15px;
-    padding-left: 5%;
+    padding-left: 9%;
     color: white;
+}
+
+#copy{
+    font-size: 13px;
 }
 
 #footerright{
    
-    padding-top: 15px;
+    padding-top: 35px;
     padding-left: 10%;
     color: white;
+    line-height: 5px;
 }
 
 

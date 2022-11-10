@@ -6,7 +6,7 @@
 <div id="footerleft">
 
 <p>17-19 boulevard Montmartre 75002 Paris</p>
-<p> © 2022 James Avocats </p>
+<p id="copy"> © 2022 James Avocats </p>
 
 </div>
 

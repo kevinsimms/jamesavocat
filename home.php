@@ -38,6 +38,7 @@ include "menu.php";
 
  <div id="secondpart">
 <div id="secondpartinner">
+  <h2> Qui sommes-nous ?</h2>
  <p> Après 10 ans de travail en équipe au sein d’un même Cabinet, 
 Anne-Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
 en 2022 <b>JAMES AVOCATS</b>, cabinet qui incarne leur vision résolument moderne de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
@@ -65,13 +66,95 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
+<!-- third bis -->
+
+<div id="thirdpartbis">
+
+<div id="titleoffourth">
+<h4>L’équipe </h4>
+<p>Dédié aux entrepreneurs et aux entreprises, James Avocats est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive</p>
+</div>
+
+
+
+
+
+<div id="posterensemble">
+
+<div id="poster1" class="poster1reveal">
+<img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
+<h5>Avocat associée</h5>
+</div>
+
+
+
+<div id="poster1" class="poster1reveal2">
+<img src="images/lavergne.jpeg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
+<h5>Avocat associée</h5>
+</div>
+
+
+
+<div id="poster1"  class="poster1reveal3">
+<img src="images/pinet.jpeg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Elodie</h4><h4 class="surname"> PINET</h4>
+<h5>Avocat associée</h5>
+</div>
+
+
+
+<div id="poster1" class="poster1reveal4">
+<img src="images/mery.jpeg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
+<h5>Avocat collaborateur</h5>
+</div>
+
+
+
+
+<div id="poster1" class="poster1reveal5">
+<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Malike</h4><h4 class="surname"> CUSSET</h4>
+<h5>Assistance juridique</h5>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
 <!-- fourth part -->
 
 
-<div id="fourthpart">
+<!-- <div id="fourthpart">
+
+
 
 <div id="titleoffourth">
-<h4>L'ÉQUIPE </h4>
+<h4>L’équipe </h4>
 <p>Dédié aux entrepreneurs et aux entreprises, James Avocats est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive</p>
 </div>
 
@@ -133,7 +216,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 </div>
-
+ -->
 
 
 <!-- fifth part -->
@@ -145,9 +228,9 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 <div id="maispasquetitle">  
-  <h2>AVOCATS, MAIS PAS QUE</h2>
+  <h2 class="h2maispasque">Avocats, Mais pas que.</h2>
 
-  <p>Véritable partenaire, JAMES AVOCATS accompagne ses clients dans la durée et leur apporte au quotidien réponses et solutions sur mesure, efficaces, pragmatiques et innovantes, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
+  <p class="pmaispasque">Véritable partenaire, JAMES AVOCATS accompagne ses clients dans la durée et leur apporte au quotidien réponses et solutions sur mesure, efficaces, pragmatiques et innovantes, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
 </div>
 
 
@@ -156,10 +239,11 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 <img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
 <div id="firstwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
 <div id="secondwindow"> <div class="etiquettemaispasque"> DROIT COMMERCIAL</div>  </div>
-<div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div>  </div>
+<div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div>  </div>
 
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 
+<div id="verticalbar3"></div> 
 
 
 </div>
