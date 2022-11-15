@@ -1,33 +1,36 @@
 #footerwrap{
     position: relative;
     background-color: black;
-    height: 130px;
-margin-top: -580px;
+    height: 190px;
+
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 101.3%;
-    margin-left: -8px;
+   
+    width:100%;
     font-family: Helvetica Neue;
     font-weight: 100;
 }
 
 
 #footerleft{
-    padding-top: 15px;
+    padding-top: 0px;
     padding-left: 9%;
     color: white;
+    font-size: 15px;
 }
 
 #copy{
     font-size: 13px;
+    margin-top: 30px;
 }
 
 #footerright{
    
-    padding-top: 35px;
+    padding-top: 62px;
     padding-left: 10%;
     color: white;
-    line-height: 5px;
+    line-height: 20px;
+    font-size: 15px;
 }
 
 
@@ -39,4 +42,12 @@ margin-top: -580px;
     position: absolute;
     margin-left: 50%;
     margin-top: 0px;
+}
+
+
+
+.logoavocatblanc{
+    width: 180px;
+    margin-left: -5px;
+    padding-top: 35px;
 }

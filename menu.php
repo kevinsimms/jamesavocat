@@ -2,7 +2,7 @@
 
 <div id="wrap">
 
-<img src="images/jamesavocatslogo.jpeg" alt ="logo1" class="logo1" > 
+<a href="home.php"><img src="images/jamesavocatslogo.jpeg" alt ="logo1" class="logo1" > </a>
 <img src="images/drapeauanglais.jpeg" alt ="drapeauuk" class="drapeauuk" > 
 
 
@@ -12,9 +12,9 @@
 
 <ul id="menutitles">
 
-<li id="menu1"> LE CABINET   </li>
-<li id="menu2"> L'ÉQUIPE</li>
-<li id="menu3"> NOS EXPERTISES</li>
+<li id="menu1"> <a id="cab" href="cabinet.php">LE CABINET</a>   </li>
+<li id="menu2"> <a id="equi" href="equipe.php">L'ÉQUIPE</a></li>
+<li id="menu3"> <a id="expert" href="expertises.php">NOS EXPERTISES</a></li>
 <li id="menu4"> ACTUALITÉS</li>
 <li id="menu5">CONTACT</li>
 
@@ -38,9 +38,9 @@
     <div id="togglemenu">
     <ul id="menutitles2">
 
-<li> LE CABINET   </li>
-<li> L'ÉQUIPE </li>
-<li> NOS EXPERTISES</li>
+<li > <a href="cabinet.php" >LE CABINET</a>   </li>
+<li> <a href="equipe.php">L'ÉQUIPE</a> </li>
+<li> <a href="expertises.php">NOS EXPERTISES</a></li>
 <li> ACTUALITÉS</li>
 <li>CONTACT</li>
 

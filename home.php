@@ -14,7 +14,7 @@
 
 
 <?php
-include "menu.php";
+include "menu.php"; 
 ?>
 
 
@@ -22,15 +22,18 @@ include "menu.php";
 
 
 
-<div id="firstwrap">
+<!-- <div id="firstwrap"> -->
 
 <img src="images/mainphotohome.jpeg" alt ="photo1" class="mainphotohome1" > 
+
+
+
 
 <div id="ftitlewrap">
 <h2 id="firsttitle">Partenaires des entrepreneurs et des entreprises</h2>
 </div>
 
-</div>
+<!-- </div> -->
 
 
 <!-- second part -->
@@ -64,15 +67,21 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <img src="images/photoensemblebig.jpeg" alt ="photo1" class="photoensemble reveal" > 
 
+<div id="malike">Malike Cusset</div>
+<div id="lavergne">Anne-Laure Lavergne</div>
+<div id="elodie">Elodie Pinet</div>
+<div id="antoine">Antoine Mery</div>
+<div id="anne">Anne-Charlotte Passelac</div>
 
 
-<!-- third bis -->
+
+<!-- fourth -->
 
 <div id="thirdpartbis">
 
 <div id="titleoffourth">
 <h4>L’équipe </h4>
-<p>Dédié aux entrepreneurs et aux entreprises, James Avocats est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive</p>
+<p>Dédié aux entrepreneurs et aux entreprises, James Avocats est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive.</p>
 </div>
 
 
@@ -114,7 +123,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
-<div id="poster1" class="poster1reveal5">
+<div id="poster1" class="poster1reveal4">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Malike</h4><h4 class="surname"> CUSSET</h4>
 <h5>Assistance juridique</h5>
@@ -144,79 +153,6 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
-
-
-<!-- fourth part -->
-
-
-<!-- <div id="fourthpart">
-
-
-
-<div id="titleoffourth">
-<h4>L’équipe </h4>
-<p>Dédié aux entrepreneurs et aux entreprises, James Avocats est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive</p>
-</div>
-
-
-
-<div id="posterensemble">
-
-<div id="poster1">
-<img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
-<h5>Avocat associée</h5>
-</div>
-
-
-
-<div id="poster1">
-<img src="images/lavergne.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
-<h5>Avocat associée</h5>
-</div>
-
-
-
-<div id="poster1">
-<img src="images/pinet.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Elodie</h4><h4 class="surname"> PINET</h4>
-<h5>Avocat associée</h5>
-</div>
-
-
-
-<div id="poster1">
-<img src="images/mery.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
-<h5>Avocat collaborateur</h5>
-</div>
-
-
-
-
-<div id="poster1">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Malike</h4><h4 class="surname"> CUSSET</h4>
-<h5>Assistance juridique</h5>
-</div>
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-</div>
- -->
 
 
 <!-- fifth part -->
@@ -253,7 +189,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 <img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
 <div id="fourthwindow">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
 <div id="fifthwindow">  <div class="etiquettemaispasque"> DROIT FISCAL</div> </div>
-<div id="sixthwindow">  <div class="etiquettemaispasque"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
+<div id="sixthwindow">  <div class="etiquettemaispasque" id="sixth"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 
 
@@ -281,7 +217,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 <?php
-include "footer.php";
+ include "footer.php"; 
 ?>
 
 

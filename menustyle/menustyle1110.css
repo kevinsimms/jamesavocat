@@ -75,8 +75,15 @@ min-width: 15px; */
 
 
     #verticalline{
-        
-        margin-top: 17px;
+        height:63%;
+        margin-top: 25px;
     }
+
+
+    a:hover{
+        color:#FFAA46;
+      }
+
+
 
 }
