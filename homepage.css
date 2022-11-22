@@ -86,6 +86,37 @@ padding-top: 10px;
     
 }
 
+
+.qui{
+    
+    opacity: 0;
+    transition: 1s all ease;
+ }
+
+ .qui.active{
+    opacity: 1;
+   
+ } 
+
+
+ .apres{
+    
+    opacity: 0;
+    transition: 2s all ease;
+ }
+
+ .apres.active{
+    opacity: 1;
+   
+ } 
+
+
+
+
+
+
+
+
 @font-face {
     font-family: myFirstFont;
     src: url(Merriweather-Black.ttf);
@@ -109,7 +140,8 @@ padding-top: 10px;
     padding-top:5%;
     margin-top: -30px;
     margin-left: 20%;
-    width: 100%;
+    width: 90%;
+    text-align: justify;
 }
 
 #secondpartinner p{
@@ -200,6 +232,8 @@ width: 100%;
         position: absolute;
         margin-top: -36%;
         margin-left: 9%;
+        opacity: 0;
+        
       }
     
 
@@ -209,6 +243,7 @@ width: 100%;
         position: absolute;
         margin-top: -23%;
         margin-left: 28%;
+        opacity: 0;
       }
 
 
@@ -217,6 +252,7 @@ width: 100%;
         position: absolute;
         margin-top: -43%;
         margin-left: 36%;
+        opacity: 0;
       }
 
 
@@ -225,6 +261,7 @@ width: 100%;
         position: absolute;
         margin-top: -23%;
         margin-left: 63%;
+        opacity: 0;
       }
 
       #anne{
@@ -234,7 +271,140 @@ width: 100%;
         position: absolute;
         margin-top: -40%;
         margin-left: 66%;
+        opacity: 0;
       }
+
+
+
+
+   /*    #malike{
+    
+        opacity: 0;
+        transition: 2s all ease;
+     }
+    
+     #malike.active{
+        opacity: 1;
+       
+     }  */
+
+
+/* 
+     #lavergne{
+    
+        opacity: 0;
+        transition: 2.5s all ease;
+     }
+    
+     #lavergne.active{
+        opacity: 1;
+       
+     } 
+
+
+
+     #elodie{
+    
+        opacity: 0;
+        transition: 3s all ease;
+     }
+    
+     #elodie.active{
+        opacity: 1;
+       
+     } 
+
+
+
+     #antoine{
+    
+        opacity: 0;
+        transition: 3.5s all ease;
+     }
+    
+     #antoine.active{
+        opacity: 1;
+       
+     } 
+
+
+
+     #anne{
+    
+        opacity: 0;
+        transition: 4s all ease;
+     }
+    
+     #anne.active{
+        opacity: 1;
+       
+     } 
+ */
+
+
+     #malike1{
+      margin-left: 10%;
+      margin-top: -43%;
+      z-index: 200;
+      position: absolute;
+      height:30vw;
+      width:14%;
+      
+      
+     }
+
+      #lavergne1{
+      margin-left: 22%;
+      margin-top: -35%;
+      z-index: 200;
+      position: absolute;
+      height:27vw;
+      width:14%;
+
+      
+      
+     }
+
+
+     #elodie1{
+      margin-left: 36%;
+      margin-top: -50%;
+      z-index: 200;
+      position: absolute;
+      height:27vw;
+      width:14%;
+
+     
+      
+     }
+
+
+     #antoine1{
+      margin-left: 52%;
+      margin-top: -37%;
+      z-index: 200;
+      position: absolute;
+      height:27vw;
+      width:14%;
+     
+      
+     }
+
+     #anne1{
+      margin-left: 71%;
+      margin-top: -48%;
+      z-index: 200;
+      position: absolute;
+      height:30vw;
+      width:14%;
+
+     
+     
+     }
+ 
+
+
+
 
 
 
@@ -317,7 +487,7 @@ transition-property: transform;
     position: relative;
     background-color: white;
     margin-bottom: -500px;
-   
+    height: 1100px; 
    
     width: 100%;
 
@@ -342,6 +512,7 @@ transition-property: transform;
    font-family: Helvetica Neue;
    font-weight: 200;
    width: 35%;
+   text-align: justify;
 
 
 } 
@@ -358,26 +529,29 @@ transition-property: transform;
 
 
 
-
+#posterwrap{
+    width: 100%;
+   
+}
 
 
 
     #posterensemble{
-
+       
      
-        height:65%;
+        height:400px;
         
      bottom:0px;
        margin-top: 30px;
         top: 00px;
         position: relative;
-        /* display: grid;
-        grid-template-columns:  18% 18% 18% 18% 18%;
-      grid-gap: 25px; */
+         display: grid;
+        grid-template-columns:  200px 200px 200px 200px 200px;
+      grid-gap: 50px; 
        margin-left: auto;
       margin-right: auto;
-      width: 94%;
-      margin-left: -8px;
+      width: 1220px;
+      
      /*  padding-left: 6%; */
 
   
@@ -454,7 +628,7 @@ transition-property: transform;
     clear: left;
     position: relative;
     background-color: #57594B;
-   
+   text-align: justify;
     font-weight: 100;
    
    }
@@ -469,7 +643,7 @@ width: 120%;
    #maispasquetitle p{
     font-family: Helvetica Neue;
     padding-left: 8%;
-    width: 120%;
+    width: 110%;
    }
    
    .h2maispasque{
@@ -487,7 +661,7 @@ width: 120%;
  .pmaispasque{
     
     opacity: 0;
-    transition: 2s all ease;
+    transition: 4s all ease;
  }
 
  .pmaispasque.active{
@@ -495,6 +669,17 @@ width: 120%;
    
  } 
 
+
+ .pasque{
+    
+  opacity: 0;
+  transition: 6s all ease;
+}
+
+.pasque.active{
+  opacity: 1;
+ 
+} 
 
 
    #maispasquetitle{
@@ -618,7 +803,11 @@ width: 120%;
 
 
    #sixth{
-    padding-left: 13px;
+    padding-left: 15px;
+   }
+
+   #sixth2{
+    padding-left: 18px;
    }
 
    #horizontalbar{
@@ -707,17 +896,65 @@ color:white;
 
 
 
-@media (max-width: 1434px){
+@media (max-width: 1200px){
 
 
     #thirdpartbis{
        
         
-        height: 1700px; 
+        height: 1550px; 
       
     }
 
+
+    #posterensemble{
+       
+        grid-template-columns:  200px 200px 200px 200px;
+      grid-gap: 50px; 
+       margin-left: auto;
+      margin-right: auto;
+      width: 970px;
+      
+     /*  padding-left: 6%; */
+
+  
+      background-color: white;
+
+
+
+    
+      
+    }
+
+
+
+
 } 
+
+
+@media (max-width: 990px){
+
+
+
+
+    #posterensemble{
+       
+        grid-template-columns:  200px 200px 200px;
+      grid-gap: 50px; 
+       margin-left: auto;
+      margin-right: auto;
+      width: 720px;
+      
+     /*  padding-left: 6%; */
+
+  
+      background-color: white;
+
+
+    }
+    
+      
+    }
 
 @media (max-width: 757px){
 
@@ -728,6 +965,33 @@ color:white;
         height: 2100px; 
       
     }
+
+
+    #posterensemble{
+       
+        grid-template-columns:  200px 200px;
+      grid-gap: 50px; 
+       margin-left: auto;
+      margin-right: auto;
+      width: 476px;
+      
+     /*  padding-left: 6%; */
+
+  
+      background-color: white;
+
+
+
+    
+      
+    }
+
+
+    
+
+
+
+
 
 } 
 

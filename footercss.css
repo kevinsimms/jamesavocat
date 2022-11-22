@@ -1,7 +1,7 @@
 #footerwrap{
     position: relative;
     background-color: black;
-    height: 190px;
+    height: 160px;
 
     display: grid;
     grid-template-columns: 50% 50%;

@@ -46,7 +46,7 @@ include "menu.php";
 Anne-Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
 en 2022 <b>JAMES AVOCATS</b>, cabinet qui incarne leur vision résolument moderne de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
  
-<p><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.
+<p class="apres"><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.
 Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur apporte au quotidien réponses et <b>solutions sur mesure, efficaces, pragmatiques et innovantes</b>, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
 
 </div>
@@ -67,11 +67,27 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <img src="images/photoensemblebig.jpeg" alt ="photo1" class="photoensemble reveal" > 
 
-<div id="malike">Malike Cusset</div>
+<div id="malike">Malika Cusset</div>
 <div id="lavergne">Anne-Laure Lavergne</div>
 <div id="elodie">Elodie Pinet</div>
 <div id="antoine">Antoine Mery</div>
 <div id="anne">Anne-Charlotte Passelac</div>
+
+<div id="malike1" onmouseout="malikeout()"   onmouseover="malikeover()"> </div>
+ <div id="lavergne1" onmouseout="lavergneout()"   onmouseover="lavergneover()"></div>
+<div id="elodie1" onmouseout="elodieout()"   onmouseover="elodieover()"></div>
+<div id="antoine1" onmouseout="antoineout()"   onmouseover="antoineover()"></div>
+ <div id="anne1" onmouseout="anneout()"   onmouseover="anneover()">  </div> 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -86,7 +102,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
-
+<div id="posterwrap">
 
 <div id="posterensemble">
 
@@ -125,7 +141,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <div id="poster1" class="poster1reveal4">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Malike</h4><h4 class="surname"> CUSSET</h4>
+<h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
 <h5>Assistance juridique</h5>
 </div>
 
@@ -133,7 +149,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
-
+</div>
 
 
 
@@ -164,7 +180,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 <div id="maispasquetitle">  
-  <h2 class="h2maispasque">Avocats, Mais pas que.</h2>
+  <h2 class="h2maispasque">Avocats. <span class="pasque">Mais pas que.</span></h2>
 
   <p class="pmaispasque">Véritable partenaire, JAMES AVOCATS accompagne ses clients dans la durée et leur apporte au quotidien réponses et solutions sur mesure, efficaces, pragmatiques et innovantes, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
 </div>
@@ -174,7 +190,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
 <div id="firstwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
-<div id="secondwindow"> <div class="etiquettemaispasque"> DROIT COMMERCIAL</div>  </div>
+<div id="secondwindow"> <div class="etiquettemaispasque" id="sixth"> DROIT COMMERCIAL</div>  </div>
 <div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div>  </div>
 
 <div id="verticalbar1"></div>
@@ -188,8 +204,8 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 <div id="secondwindowline">
 <img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
 <div id="fourthwindow">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
-<div id="fifthwindow">  <div class="etiquettemaispasque"> DROIT FISCAL</div> </div>
-<div id="sixthwindow">  <div class="etiquettemaispasque" id="sixth"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
+<div id="fifthwindow">  <div class="etiquettemaispasque" id="sixth"> DROIT FISCAL</div> </div>
+<div id="sixthwindow">  <div class="etiquettemaispasque" id="sixth2"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 
 

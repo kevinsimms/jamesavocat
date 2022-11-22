@@ -31,7 +31,9 @@ include "menu.php";
 
 
 
+<div id="thirdpartbis">
 
+<div id="posterwrap">
 
 <div id="posterensemble">
 
@@ -43,7 +45,7 @@ include "menu.php";
 
 
 
-<div id="poster1" class="poster1reveal2">
+<div id="poster1" class="poster1reveal2" onclick="lavergne()">
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
 <h5>Avocat associée</h5>
@@ -51,7 +53,7 @@ include "menu.php";
 
 
 
-<div id="poster1"  class="poster1reveal3">
+<div id="poster1"  class="poster1reveal3" onclick="elodie()">
 <img src="images/pinet.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Elodie</h4><h4 class="surname"> PINET</h4>
 <h5>Avocat associée</h5>
@@ -59,7 +61,7 @@ include "menu.php";
 
 
 
-<div id="poster1" class="poster1reveal4">
+<div id="poster1" class="poster1reveal4" onclick="mery()">
 <img src="images/mery.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
 <h5>Avocat collaborateur</h5>
@@ -68,34 +70,44 @@ include "menu.php";
 
 
 
-<div id="poster1" class="poster1reveal4">
+<div id="poster1" class="poster1reveal4" onclick="cusset()">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Malike</h4><h4 class="surname"> CUSSET</h4>
+<h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
 <h5>Assistance juridique</h5>
 </div>
 
 
 
 
+</div>
 
-
-
+</div>
 
 
 </div>
 
 
+
+
 <?php
- include "avocatprofil/passelac.php"; 
+ include "avocatprofil/passelac.php";
+ include "avocatprofil/lavergne.php";
+ include "avocatprofil/elodie.php";
+ include "avocatprofil/mery.php";
+ include "avocatprofil/cusset.php";
+
 ?>
 
 
+ <img id="flechegauche" onclick="left()" src="images/fleche_gauche.png" alt ="fgauche" >  
+<img id="flechedroite" onclick="right()" src="images/fleche_droite.png" alt ="fdroite" > 
 
+ 
 
 <div id="nospartenaires">
-<p>Nos partenaires</p>
+<p>Nos partenaires :</p>
 
-
+<img id="revo" src="images/revoavocat.png" alt ="revo" > 
 
 </div>
 

@@ -23,34 +23,49 @@
 
 
 
-    #posterensemble{
-
+        #posterensemble{
+       
      
-        height:65%;
-        
-     bottom:0px;
-       margin-top: -100px;
-        top: 00px;
-        position: relative;
-        /* display: grid;
-        grid-template-columns:  18% 18% 18% 18% 18%;
-      grid-gap: 25px; */
-       margin-left: 4vw;
-      margin-right: auto;
-      width: 96%;
-      
+         height:400px;
+         
+      bottom:0px;
+        margin-top: 30px;
+         top: 00px;
+         position: relative;
+          display: grid;
+         grid-template-columns:  200px 200px 200px 200px 200px;
+       grid-gap: 50px; 
+        margin-left: auto;
+       margin-right: auto;
+       width: 1220px;
+       
+      /*  padding-left: 6%; */
+ 
+   
      
-     /*  padding-left: 6%; */
+ 
+ 
+ 
+     
+       
+     }
 
+     #posterwrap{
+      width: 100%;
+     
+  }
+
+
+  #thirdpartbis{
+   margin-top: -130px;
+   position: relative;
+   
+   margin-bottom: -500px;
+   height: 930px; 
   
-      background-color: white;
+   width: 100%;
 
-
-
-    
-      
-    }
-
+}
 
  #poster1{
    
@@ -69,8 +84,19 @@
     border-radius: 30px;
     width: 110%;
     padding-bottom: -100px;
+
+    height: 260px; object-fit: cover;
+    object-position: -20% 0;
+    filter: grayscale(100%);
  }
 
+ .photoavocat:hover{
+   transform: scale(1.05);
+
+   transition-duration: 500ms;
+transition-property: transform;
+filter: none;
+ }
 
  #poster1 h5{
     font-weight: 100;
@@ -97,7 +123,21 @@
      }
 
 
-
+     #flechegauche{
+      position: absolute;
+      width: 50px;
+      z-index: 300;
+      margin-left: 2%;
+      margin-top: -450px;
+   }
+   
+   #flechedroite{
+      position: absolute;
+      width: 50px;
+      z-index: 300;
+      margin-left: 94%;
+      margin-top: -450px;
+   }
 
 
      #nospartenaires{
@@ -106,19 +146,20 @@
         height: 170px;
     
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 130px 50px;
        
-        width:100%;
+        /* width:100%; */
         font-family: Helvetica Neue;
         font-weight: 100;
+        padding-left: 52px;
      }
 
 
      #nospartenaires p{
 
         color: white;
-        padding-left: 6.5%;
-        padding-top: 20px;
+       /*  padding-left: 6.5%; */
+        padding-top: 30px;
 
      }
 
@@ -139,3 +180,111 @@
      #verticalline5{
        display: none;
     }
+
+
+    #revo{
+      padding-top: 50px;
+      height: 80px;
+    }
+
+
+
+
+@media (max-width: 1200px){
+
+
+   #thirdpartbis{
+      
+       
+       height: 1330px; 
+     
+   }
+
+
+   #posterensemble{
+      
+       grid-template-columns:  200px 200px 200px 200px;
+     grid-gap: 50px; 
+      margin-left: auto;
+     margin-right: auto;
+     width: 970px;
+     
+    /*  padding-left: 6%; */
+
+ 
+     
+
+
+
+   
+     
+   }
+
+
+
+
+} 
+
+
+@media (max-width: 990px){
+
+
+
+
+   #posterensemble{
+      
+       grid-template-columns:  200px 200px 200px;
+     grid-gap: 50px; 
+      margin-left: auto;
+     margin-right: auto;
+     width: 720px;
+     
+    /*  padding-left: 6%; */
+
+ 
+     
+
+
+   }
+   
+     
+   }
+
+@media (max-width: 757px){
+
+
+   #thirdpartbis{
+      
+       
+       height: 1750px; 
+     
+   }
+
+
+   #posterensemble{
+      
+       grid-template-columns:  200px 200px;
+     grid-gap: 50px; 
+      margin-left: auto;
+     margin-right: auto;
+     width: 476px;
+     
+    /*  padding-left: 6%; */
+
+ 
+     
+
+
+
+   
+     
+   }
+
+
+   
+
+
+
+
+
+} 
