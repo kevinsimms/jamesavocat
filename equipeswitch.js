@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var togl=0;
 var togl2=0;
 var togl3=0;
@@ -17,12 +31,15 @@ function Passelac(){
         document.getElementById("flechegauche").style.display="none";
         document.getElementById("flechedroite").style.display="none";
        
+        document.getElementById("name1").style.color="black";
+
+
        togl=1; 
 
-       togl2=1; 
+       togl2=0; 
        togl3=0;
-       togl4=1;
-       togl5=1;
+       togl4=0;
+       togl5=0;
 
     
    }
@@ -36,6 +53,16 @@ function Passelac(){
     document.getElementsByClassName("profilbigwrap5")[0].style.display="none";
 
 
+    document.getElementById("name1").style.color="rgb(255, 170, 70)";
+        document.getElementById("name2").style.color="black";
+        document.getElementById("name3").style.color="black";
+        document.getElementById("name4").style.color="black";
+        document.getElementById("name5").style.color="black";
+
+
+
+
+
     document.getElementById("flechegauche").style.display="block";
     document.getElementById("flechedroite").style.display="block";
 
@@ -44,7 +71,7 @@ pos="pass";
        togl=0; 
 
        togl2=0; 
-       togl3=1;
+       togl3=0;
        togl4=0;
        togl5=0;
    }
@@ -75,17 +102,27 @@ function lavergne(){
         document.getElementsByClassName("profilbigwrap5")[0].style.display="none";
        
 
+        document.getElementById("name1").style.color="black";
+        document.getElementById("name2").style.color="rgb(255, 170, 70)";
+        document.getElementById("name3").style.color="black";
+        document.getElementById("name4").style.color="black";
+        document.getElementById("name5").style.color="black";
+
+
+
+
+
         document.getElementById("flechegauche").style.display="block";
         document.getElementById("flechedroite").style.display="block";
 
 pos="lav";
 
-       togl2=1; 
+      
        togl=1; 
-       
+       togl2=1; 
        togl3=0;
-       togl4=1;
-       togl5=1;
+       togl4=0;
+       togl5=0;
       
 
     
@@ -98,12 +135,12 @@ pos="lav";
     document.getElementById("flechegauche").style.display="none";
     document.getElementById("flechedroite").style.display="none";
 
+    document.getElementById("name2").style.color="black";
 
-
-    togl=0; 
+    togl=1; 
        togl2=0; 
        
-       togl3=1;
+       togl3=0;
        togl4=0;
        togl5=0;
 
@@ -129,7 +166,11 @@ function elodie(){
         document.getElementsByClassName("profilbigwrap4")[0].style.display="none";
         document.getElementsByClassName("profilbigwrap5")[0].style.display="none";
    
-       
+        document.getElementById("name1").style.color="black";
+        document.getElementById("name2").style.color="black";
+        document.getElementById("name3").style.color="rgb(255, 170, 70)";
+        document.getElementById("name4").style.color="black";
+        document.getElementById("name5").style.color="black";
 
         document.getElementById("flechegauche").style.display="block";
         document.getElementById("flechedroite").style.display="block";
@@ -151,15 +192,17 @@ togl4=0;
     document.getElementsByClassName("profilbigwrap3")[0].style.display="none";
 
 
+    document.getElementById("name3").style.color="black";
+
     document.getElementById("flechegauche").style.display="none";
     document.getElementById("flechedroite").style.display="none";
 
 
-    togl=0;
-    togl2=1;
+    togl=1;
+    togl2=0;
     togl3=0;
-    togl4=1;
-       togl5=1; 
+    togl4=0;
+       togl5=0; 
    }
 
 }
@@ -178,7 +221,13 @@ function mery(){
         document.getElementsByClassName("profilbigwrap4")[0].style.display="grid";
         document.getElementsByClassName("profilbigwrap5")[0].style.display="none";
    
-       
+        document.getElementById("name1").style.color="black";
+        document.getElementById("name2").style.color="black";
+        document.getElementById("name3").style.color="black";
+        document.getElementById("name4").style.color="rgb(255, 170, 70)";
+        document.getElementById("name5").style.color="black";
+
+        
 
         document.getElementById("flechegauche").style.display="block";
     document.getElementById("flechedroite").style.display="block";
@@ -201,15 +250,17 @@ togl4=1;
     document.getElementsByClassName("profilbigwrap4")[0].style.display="none";
 
 
+    document.getElementById("name4").style.color="black";
+
 
     document.getElementById("flechegauche").style.display="none";
     document.getElementById("flechedroite").style.display="none";
 
-    togl=0;
-    togl2=1;
-    togl3=1;
+    togl=1;
+    togl2=0;
+    togl3=0;
     togl4=0;
-       togl5=1; 
+       togl5=0; 
    }
 
 }
@@ -228,6 +279,13 @@ function cusset(){
         document.getElementsByClassName("profilbigwrap5")[0].style.display="grid";
    
        
+        document.getElementById("name1").style.color="black";
+        document.getElementById("name2").style.color="black";
+        document.getElementById("name3").style.color="black";
+        document.getElementById("name4").style.color="black";
+        document.getElementById("name5").style.color="rgb(255, 170, 70)";
+
+
 
         document.getElementById("flechegauche").style.display="block";
         document.getElementById("flechedroite").style.display="block";
@@ -248,14 +306,17 @@ togl4=0;
     document.getElementsByClassName("profilbigwrap5")[0].style.display="none";
 
 
+    document.getElementById("name5").style.color="black";
+
+
     document.getElementById("flechegauche").style.display="none";
     document.getElementById("flechedroite").style.display="none";
 
 
-togl=0;
-togl2=1;
-togl3=1;
-togl4=1;
+togl=1;
+togl2=0;
+togl3=0;
+togl4=0;
        togl5=0; 
    }
 
@@ -350,3 +411,20 @@ function left(){
 
 
 } 
+
+
+
+document.addEventListener('keydown', (event) => {
+    var name = event.key;
+    
+    if(name=="ArrowRight"){right();}
+    if(name=="ArrowLeft"){left();}
+   
+  }, false);
+
+
+
+
+
+
+ 

@@ -61,7 +61,7 @@ font-weight: 100;
 
     display: block;
 
-    width: 101.3%;
+    width: 101%;
     margin-left: -8px;
     
     
@@ -79,7 +79,7 @@ font-weight: 100;
     background-color: black;
     display: block;
     position: absolute;
-    margin-left: 50%;
+    margin-left: 50vw;
     margin-top: 17px;
 }
 

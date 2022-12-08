@@ -5,6 +5,8 @@
 <title>James Avocats Accueil</title>
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
+ <link rel="stylesheet" href="menustyle/menumobile.css">
+
  <link rel="stylesheet" href="homepage.css">
 
  <link rel="stylesheet" href="footercss.css">
@@ -67,7 +69,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <img src="images/photoensemblebig.jpeg" alt ="photo1" class="photoensemble reveal" > 
 
-<div id="malike">Malika Cusset</div>
+<!-- <div id="malike">Malika Cusset</div>
 <div id="lavergne">Anne-Laure Lavergne</div>
 <div id="elodie">Elodie Pinet</div>
 <div id="antoine">Antoine Mery</div>
@@ -77,7 +79,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
  <div id="lavergne1" onmouseout="lavergneout()"   onmouseover="lavergneover()"></div>
 <div id="elodie1" onmouseout="elodieout()"   onmouseover="elodieover()"></div>
 <div id="antoine1" onmouseout="antoineout()"   onmouseover="antoineover()"></div>
- <div id="anne1" onmouseout="anneout()"   onmouseover="anneover()">  </div> 
+ <div id="anne1" onmouseout="anneout()"   onmouseover="anneover()">  </div>  -->
 
 
 
@@ -97,7 +99,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <div id="titleoffourth">
 <h4>L’équipe </h4>
-<p>Dédié aux entrepreneurs et aux entreprises, James Avocats est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive.</p>
+<p>Dédié aux entrepreneurs et aux entreprises, JAMES AVOCATS est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive.</p>
 </div>
 
 
@@ -114,7 +116,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
-<div id="poster1" class="poster1reveal2">
+<div id="poster1" class="poster1reveal2" >
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
 <h5>Avocat associée</h5>
@@ -139,10 +141,10 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 
 
-<div id="poster1" class="poster1reveal4">
+<div id="poster1" class="poster1reveal5">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
-<h5>Assistance juridique</h5>
+<h5>Assistante juridique</h5>
 </div>
 
 
@@ -189,7 +191,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 <div id="windowswrap">
 
 <img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
-<div id="firstwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
+<div id="firstwindow" onclick="scroll1()">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
 <div id="secondwindow"> <div class="etiquettemaispasque" id="sixth"> DROIT COMMERCIAL</div>  </div>
 <div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div>  </div>
 
@@ -236,7 +238,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
  include "footer.php"; 
 ?>
 
-
+<script src="scrollto.js"></script>
 
 <script src="menustyle/scriptmenu.js"></script>
 

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@200&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Merriweather-Black.ttf);
+    font-weight: 100;
+  }
+
+
+  @font-face {
+    font-family: mySecFont;
+    src: url(HelveticaNeueLight.ttf);
+    font-weight: 100;
+  }
+
+#wrappermention{
+
+
+
+   /*  display: grid;
+    grid-template-columns: 50% 50%; */
+ 
+    font-family: mySecFont;
+    text-align: justify;
+}
+
+#politique{
+    font-family: mySecFont;
+    float: left;
+
+width: 46%;
+    padding-top: 3px;
+  padding-left: 4%; 
+    background-color: #57594B;
+    color:white;
+}
+
+#politique h1{
+   text-align: left;
+   width: 80%;
+   
+}
+
+#politique p{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: mySecFont;
+    width: 80%;
+
+}
+
+#donnes{
+float: right;
+width: 46%;
+
+    margin-left: 0%;
+    
+}
+
+
+#donnes h1{
+width: 80%;
+    text-align: left;
+}
+
+
+
+
+#donnes p{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: mySecFont;
+    width: 80%;
+}
+
+
+

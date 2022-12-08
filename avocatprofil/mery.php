@@ -18,11 +18,14 @@
 
 
 </div>
+<br><br><br><br><br><br><br><br>
 
 
 <div class="bandedessous">
-<h2> contact@email.com</h2>
-<h2 class="vcard"> V-card -></h2>
+
+<h2> <a href="mailto:a.mery@james-avocats.fr">a.mery@james-avocats.fr</a></h2>
+<a href="https://www.linkedin.com/in/antoine-mery/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+
 </div>
 
 

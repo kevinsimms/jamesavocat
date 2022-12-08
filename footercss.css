@@ -1,36 +1,57 @@
+
+@font-face {
+    font-family: mySecFont;
+    src: url(HelveticaNeueLight.ttf);
+    font-weight: 100;
+  }
+
+
+
 #footerwrap{
     position: relative;
     background-color: black;
     height: 160px;
-
+z-index: 20;
     display: grid;
     grid-template-columns: 50% 50%;
    
     width:100%;
-    font-family: Helvetica Neue;
+    font-family: mySecFont;
     font-weight: 100;
 }
+
+
 
 
 #footerleft{
     padding-top: 0px;
     padding-left: 9%;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #copy{
-    font-size: 13px;
-    margin-top: 30px;
+    font-size: 11px;
+    margin-top: 18px;
 }
 
 #footerright{
    
     padding-top: 62px;
-    padding-left: 10%;
+    padding-left: 5%;
     color: white;
     line-height: 20px;
-    font-size: 15px;
+    font-size: 12px;
+}
+
+#mentionsl{
+    font-size: 11px;
+    color: white;
+}
+
+#mentionsl:hover{
+   
+    color: #FFAA46;
 }
 
 
@@ -40,7 +61,7 @@
     background-color: white;
     display: block;
     position: absolute;
-    margin-left: 50%;
+    margin-left: 49.5vw;
     margin-top: 0px;
 }
 
@@ -50,4 +71,13 @@
     width: 180px;
     margin-left: -5px;
     padding-top: 35px;
+}
+
+
+#ici{
+    color: white;
+}
+
+#ici:hover{
+    color: #FFAA46;
 }

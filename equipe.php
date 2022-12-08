@@ -39,32 +39,46 @@ include "menu.php";
 
 <div id="poster1" class="poster1reveal" onclick="Passelac()">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
+    <div id=name1>
 <h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
+   
 <h5>Avocat associée</h5>
+</div>
 </div>
 
 
 
 <div id="poster1" class="poster1reveal2" onclick="lavergne()">
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocat" > 
+
+  <div id=name2>
 <h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
+  
 <h5>Avocat associée</h5>
+
+</div>
 </div>
 
 
 
 <div id="poster1"  class="poster1reveal3" onclick="elodie()">
 <img src="images/pinet.jpeg" alt ="photo1" class="photoavocat" > 
+<div id=name3>
 <h4 class="firstname">Elodie</h4><h4 class="surname"> PINET</h4>
+
 <h5>Avocat associée</h5>
+</div>
 </div>
 
 
 
 <div id="poster1" class="poster1reveal4" onclick="mery()">
 <img src="images/mery.jpeg" alt ="photo1" class="photoavocat" > 
+<div id=name4>
 <h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
+
 <h5>Avocat collaborateur</h5>
+</div>
 </div>
 
 
@@ -72,8 +86,11 @@ include "menu.php";
 
 <div id="poster1" class="poster1reveal4" onclick="cusset()">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
+<div id=name5>
 <h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
-<h5>Assistance juridique</h5>
+
+<h5>Assistante juridique</h5>
+</div>
 </div>
 
 
@@ -127,6 +144,35 @@ include "menu.php";
 <script src="equipeswitch.js"></script>
 
 <script src="menucolor/equipecolor.js"></script>
+
+<?php
+if($_GET["avo"]=='lavergne'){
+  
+echo '<script>lavergne();  window.scrollTo(0, 1000);</script>';
+
+}
+
+
+if($_GET["avo"]=='elodie'){
+  
+  echo '<script>elodie();  window.scrollTo(0, 1000);</script>';
+  
+  }
+
+
+  if($_GET["avo"]=='antoine'){
+  
+    echo '<script>mery();  window.scrollTo(0, 1000);</script>';
+    
+    }
+
+    if($_GET["avo"]=='malika'){
+  
+      echo '<script>cusset();  window.scrollTo(0, 1000);</script>';
+      
+      }
+?>
+
 
 
 </body>

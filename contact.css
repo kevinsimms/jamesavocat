@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: mySecFont;
+    src: url(HelveticaNeueLight.ttf);
+    font-weight: 100;
+  }
+
+#wrap2{
+
+    display:grid;
+    grid-template-columns: 50% 50%;
+    height: 300px;
+    margin-top:5px;
+    margin-bottom:400px ;
+}
+
+#leftside1{
+    margin-top: -3px;
+    width: 90%;
+    height: 100%;
+    
+    margin-left: 0px;
+   
+}
+
+#rightside{
+    margin-top: -3px;
+    font-family: mySecFont;
+width: 100%;
+background-color:#57594B;
+color:white;
+margin-left: -00px;
+}
+
+
+
+
+#james{
+     padding-top:15px ;
+    padding-bottom:14px;
+    padding-left:45px ;
+   font-size:20px;
+    
+   
+}
+
+
+#boul{
+    font-size: 15px;
+   
+   padding-top: 17px;
+   padding-left: 45px;
+   padding-bottom: 20px;
+}
+
+#mail{
+    font-size: 15px;
+       
+       padding-top:17px ;
+       padding-left: 45px;
+
+}
+
+#num{
+    padding-bottom:20px ;
+    padding-left: 45px;
+}
+
+/* hr{
+    position: absolute;
+    width: 100%;
+    margin-left: 0%;
+ z-index: -100;
+
+} */
+
+
+#inlineFrameExample{
+    margin-left: 45px;
+    margin-top: 30px;
+    
+}

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: mySecFont;
+  src: url(HelveticaNeueLight.ttf);
+  font-weight: 100;
+}
+
+
+
 .mainphotohome1{
     
     z-index: -100;
@@ -33,11 +41,11 @@
 
 
 #firsttitle{
-    
+  font-family: mySecFont;
     z-index: 10;
     color: white;
     margin-top: -23%;
-    width: 650px;
+    width: 690px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -124,11 +132,11 @@ padding-top: 10px;
   }
 
 
-  @font-face {
+ /*  @font-face {
     font-family: mySecFont;
     src: url(HelveticaNeue.ttc);
     font-weight: 100;
-  }
+  } */
 
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@200&display=swap');
 
@@ -146,13 +154,15 @@ padding-top: 10px;
 
 #secondpartinner p{
     font-weight:200;
-    font-family: Helvetica Neue;
+    font-family: mySecFont;
     width:100%;
     line-height: 23px;
+     font-size: 17px;
+     font-weight: 100;
 }
 
 #secondpartinner h2{
-    font-family: Merriweather;
+  font-family: mySecFont;
     font-size: 40px;
     width: 105%;
 }
@@ -499,7 +509,7 @@ transition-property: transform;
     margin-top: 365px;
     padding-left: 8%;
     font-size: 40px;
-       font-family: Merriweather;
+    font-family: mySecFont;
        font-weight: 900;
        
 
@@ -509,10 +519,11 @@ transition-property: transform;
 #titleoffourth p{
     margin-top: -25px;
    padding-left: 8%;
-   font-family: Helvetica Neue;
+   font-family: mySecFont;
    font-weight: 200;
    width: 35%;
    text-align: justify;
+   font-size: 17px;
 
 
 } 
@@ -634,16 +645,17 @@ transition-property: transform;
    }
 
    #maispasquetitle h2{
-font-family: Merryweather;
+    font-family: mySecFont;
 padding-left: 8%;
 font-size: 40px;
 width: 120%;
    }
 
    #maispasquetitle p{
-    font-family: Helvetica Neue;
+    font-family: mySecFont;
     padding-left: 8%;
     width: 110%;
+    font-size: 17px;
    }
    
    .h2maispasque{
@@ -733,9 +745,9 @@ width: 120%;
     top: 30px;
     position: absolute;
     width:28%;
-    height: 41%;
-   /*  background-color: red;
-    opacity: 0.2; */
+    height: 90%;
+    /*  background-color: red;
+    opacity: 0.2; */ 
 
    }
 
@@ -745,9 +757,9 @@ width: 120%;
     top: 30px;
     position: absolute;
     width:29%;
-    height: 41%;
-    /* background-color: green;
-    opacity: 0.2; */
+    height: 90%;
+    /*  background-color: green;
+    opacity: 0.2;  */
 
    }
 
@@ -755,8 +767,8 @@ width: 120%;
     left:68%;
     top: 30px;
     position: absolute;
-    width:27%;
-    height: 41%;
+    width:29%;
+    height: 90%;
     /* background-color: blue;
     opacity: 0.2; */
    }
@@ -768,7 +780,7 @@ width: 120%;
    top:0px;
     position: absolute;
     width:28%;
-    height: 41%;
+    height: 90%;
    /*  background-color: yellow;
     opacity: 0.2; */
 
@@ -783,7 +795,7 @@ width: 120%;
     top:0px;
     position: absolute;
     width:29%;
-    height: 42%;
+    height: 90%;
   /*   background-color: pink;
     opacity: 0.2; */
 
@@ -795,7 +807,7 @@ width: 120%;
     top:0px;
     position: absolute;
     width:28%;
-    height: 42%;
+    height: 90%;
    /*  background-color: brown;
     opacity: 0.2; */
 
@@ -840,7 +852,7 @@ width: 120%;
     left:64%;
     position: absolute;
     width:4%;
-    height: 90%;
+    height: 100%;
     background-color: #57594B;
     
 

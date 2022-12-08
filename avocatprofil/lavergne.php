@@ -22,10 +22,14 @@
 
 </div>
 
+<br><br><br><br><br><br><br><br>
 
 <div class="bandedessous">
-<h2> contact@email.com</h2>
-<h2 class="vcard"> V-card -></h2>
+
+<h2> <a href="mailto:al.lavergne@james-avocats.fr">al.lavergne@james-avocats.fr</a></h2>
+<a href="https://www.linkedin.com/in/anne-laure-lavergne-28962b91/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+
+
 </div>
 
 

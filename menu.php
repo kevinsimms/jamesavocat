@@ -16,7 +16,7 @@
 <li id="menu2"> <a id="equi" href="equipe.php">L'ÉQUIPE</a></li>
 <li id="menu3"> <a id="expert" href="expertises.php">NOS EXPERTISES</a></li>
 <li id="menu4"> ACTUALITÉS</li>
-<li id="menu5">CONTACT</li>
+<li id="menu5"> <a id="cont" href="contact.php">CONTACT</a></li>
 
 
 </ul>
@@ -42,7 +42,7 @@
 <li> <a href="equipe.php">L'ÉQUIPE</a> </li>
 <li> <a href="expertises.php">NOS EXPERTISES</a></li>
 <li> ACTUALITÉS</li>
-<li>CONTACT</li>
+<li><a href="contact.php">CONTACT</a></li>
 
 
 </ul>
