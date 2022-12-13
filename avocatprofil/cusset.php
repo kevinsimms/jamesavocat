@@ -5,10 +5,14 @@
 
 <div class="profilwrap">
 
+<img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
 <div class="imagewrap">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocatgrand" >
 </div>
+
+<img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
+
 
 <div class="textwrap">
     <p>Formée par l’ENADEP, (Ecole nationale de droit et de procédure pour le personnel des avocats) dédiée à la formation professionnelle du personnel des cabinets d'avocats et des professions juridiques et judiciaires, Malika a obtenu le titre de Secrétaire juridique en 2018, puis le diplôme d’Assistante Juridique en 2021.</p>

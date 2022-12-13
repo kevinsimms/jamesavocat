@@ -1,0 +1,76 @@
+@media (max-device-width: 550px){
+
+
+    .profilbigwrap{
+       margin-top: 400px;
+       
+              
+     }
+
+     .profilbigwrap2{
+        margin-top: 400px;
+          
+               
+      }
+      .profilbigwrap3{
+        margin-top: 400px;
+          
+               
+      }
+      .profilbigwrap4{
+        margin-top: 400px;
+          
+               
+      }
+      .profilbigwrap5{
+        margin-top: 400px;
+          
+               
+      }
+
+      .profilname{
+        padding-left: 22%;
+        font-size: 50px;
+    }
+
+
+    .profilwrap{
+        
+        grid-template-columns: 100%;
+    }
+
+
+    .imagewrap{
+        
+        margin-left: 22%;
+     }
+
+
+
+    .textwrap{
+       text-align: left;
+        margin-top: 330px;
+       padding-left: 50px;
+    font-size: 37px;
+    line-height: 40px;
+    
+    
+     }
+
+
+
+     .bandedessous h2 a{
+       
+      font-size: 37px;
+      padding-left: 29%;
+      width: 100%;
+    
+    }
+
+
+
+
+
+
+
+}

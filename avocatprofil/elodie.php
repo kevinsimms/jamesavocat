@@ -5,10 +5,15 @@
 
 <div class="profilwrap">
 
+<img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
+
 
 <div class="imagewrap">
 <img src="images/pinet.jpeg" alt ="photo1" class="photoavocatgrand" >
 </div>
+
+<img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
+
 
 <div class="textwrap">
     <p>Avocat au Barreau de Paris depuis 2017, Elodie conseille les chefs d’entreprises et les particuliers sur des problématiques principalement liées au droit des sociétés en leur proposant un accompagnement sur mesure dans le cadre de leurs projets d’association, leurs opérations de croissance externe et/ou de réorganisation interne ainsi que sur l’ensemble de leurs sujets de gouvernance. Elle les assiste également en matière de fiscalité.</p>

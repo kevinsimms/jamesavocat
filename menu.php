@@ -34,14 +34,14 @@
 
 
 
-    <div style='float:left; width: 400px;'>
+    <div id="menudef">
     <div id="togglemenu">
     <ul id="menutitles2">
 
-<li > <a href="cabinet.php" >LE CABINET</a>   </li>
+<li > <a href="cabinet.php">LE CABINET</a>   </li>
 <li> <a href="equipe.php">L'ÉQUIPE</a> </li>
 <li> <a href="expertises.php">NOS EXPERTISES</a></li>
-<li> ACTUALITÉS</li>
+<li> <a href="">ACTUALITÉS</a></li>
 <li><a href="contact.php">CONTACT</a></li>
 
 

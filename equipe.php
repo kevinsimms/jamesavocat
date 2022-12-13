@@ -6,17 +6,20 @@
 
 <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
+ <link rel="stylesheet" href="menustyle/menumobile.css">
 
 
  
 
  <link rel="stylesheet" href="avocatprofil/passelac.css">
+ <link rel="stylesheet" href="avocatprofil/passelacmobile.css">
 
 
 
  <link rel="stylesheet" href="footercss.css">
 
  <link rel="stylesheet" href="equipe.css">
+ <link rel="stylesheet" href="equipemobile.css">
 
 </head>
 <body>
@@ -98,6 +101,10 @@ include "menu.php";
 
 </div>
 
+
+
+ 
+
 </div>
 
 
@@ -107,7 +114,7 @@ include "menu.php";
 
 
 <?php
- include "avocatprofil/passelac.php";
+include "avocatprofil/passelac.php";
  include "avocatprofil/lavergne.php";
  include "avocatprofil/elodie.php";
  include "avocatprofil/mery.php";
@@ -116,8 +123,7 @@ include "menu.php";
 ?>
 
 
- <img id="flechegauche" onclick="left()" src="images/fleche_gauche.png" alt ="fgauche" >  
-<img id="flechedroite" onclick="right()" src="images/fleche_droite.png" alt ="fdroite" > 
+
 
  
 
@@ -131,7 +137,7 @@ include "menu.php";
 <div id="verticallinepart"></div>
 
 
-
+ 
 
 
 
@@ -146,6 +152,9 @@ include "menu.php";
 <script src="menucolor/equipecolor.js"></script>
 
 <?php
+
+if(isset($_GET['avo'])){
+
 if($_GET["avo"]=='lavergne'){
   
 echo '<script>lavergne();  window.scrollTo(0, 1000);</script>';
@@ -171,6 +180,10 @@ if($_GET["avo"]=='elodie'){
       echo '<script>cusset();  window.scrollTo(0, 1000);</script>';
       
       }
+
+
+
+    }
 ?>
 
 

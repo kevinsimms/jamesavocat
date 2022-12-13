@@ -5,10 +5,15 @@
 
 <div class="profilwrap">
 
+<img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
+
 
 <div class="imagewrap">
 <img src="images/mery.jpeg" alt ="photo1" class="photoavocatgrand" >
 </div>
+
+<img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
+
 
 <div class="textwrap">
     <p>Titulaire du Master II « Droit de la concurrence et de la distribution » délivré par l’Université de Caen- Normandie, et fort de plusieurs expériences tant dans le monde de l’entreprise qu’auprès du Pôle économique et commercial de la Cour d’appel de Paris, Antoine intervient principalement aux côtés des entreprises afin de les accompagner sur les problématiques « B to B » et « B to C ».</p>

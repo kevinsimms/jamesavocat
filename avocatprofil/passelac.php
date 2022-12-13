@@ -12,12 +12,16 @@
 
 
 
+<img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
 
 
 <div class="imagewrap">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocatgrand" >
 </div>
+
+<img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
+
 
 <div class="textwrap">
 <p>Avocat au Barreau de Paris depuis 1998, Anne Charlotte conseille quotidiennement ses clients – dirigeants d’entreprises, cadres et institutions sociales – sur l’ensemble des problématiques de droit social et de la protection sociale qu’ils rencontrent, qu’elles s’inscrivent dans un cadre individuel ou collectif (mise en place des institutions représentatives du personnel, élaboration de procédures internes, négociations d’accords collectifs). </p>
@@ -31,12 +35,12 @@
 
 </div>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 
 <div class="bandedessous">
 <h2> <a href="mailto:ac.passelac@james-avocats.fr">ac.passelac@james-avocats.fr</a></h2>
-<a href="https://www.linkedin.com/in/anne-charlotte-passelac-86a2a010/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+<a class="photolinkdin" href="https://www.linkedin.com/in/anne-charlotte-passelac-86a2a010/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin"  height="50"></a>
 
 </div>
 

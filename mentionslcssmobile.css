@@ -1,0 +1,40 @@
+
+@media (max-device-width: 550px){
+
+#politique{
+   
+
+width: 90%;
+padding-left: 100px;
+
+
+    
+}
+
+
+#politique p{
+  
+    width: 90%;
+
+}
+
+
+
+#donnes{
+    clear: left;
+    width: 90%;
+   margin-right: -0px;
+   margin-bottom: 60px;
+
+     
+        
+    }
+
+
+    #donnes p{
+        
+        width: 90%;
+    }
+
+
+}

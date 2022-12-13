@@ -7,21 +7,28 @@
 
 <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
+ <link rel="stylesheet" href="menustyle/menumobile.css">
 
 
  
  <link rel="stylesheet" href="homepage.css">
+ <link rel="stylesheet" href="homemobile.css">
 
  <link rel="stylesheet" href="expertises.css">
-
+  <link rel="stylesheet" href="expertisemobile.css"> 
 
 
  <link rel="stylesheet" href="footercss.css">
 
 
 
+ <!--  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> --> 
+
+
+  
+
 </head>
-<body>
+<body width=100%>
 
 
 <?php
@@ -53,7 +60,7 @@ include "menu.php";
 <img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
 <div id="fourthwindow"onclick="scroll4()">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
 <div id="fifthwindow" onclick="scroll5()">  <div class="etiquettemaispasque"> DROIT FISCAL</div> </div>
-<div id="sixthwindow" onclick="scroll6()">  <div class="etiquettemaispasque" id="sixth"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
+<div id="sixthwindow" onclick="scroll6()">  <div class="etiquettemaispasque" > PROPRIÉTÉ INTELLECTUELLE</div> </div>
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 
 
@@ -69,7 +76,7 @@ include "menu.php";
 
 <div id="droitsocialwrap">
   <h1 id="droittitle">Droit social</h1>
-  <p id="socialfirstpara">Nous proposons à nos clients un support permanent afin de répondre à l’ensemble des problématiques sociales auxquelles ils se trouvent confrontés, tant dans les relations individuelles que collectives. Nous apportons des solutions concrètes à des contraintes opérationnelles en tenant compte de l’environnement juridique, des exigences de l’activité et de la stratégie de l’entreprise.</p>
+  <p class="socialfirstpara">Nous proposons à nos clients un support permanent afin de répondre à l’ensemble des problématiques sociales auxquelles ils se trouvent confrontés, tant dans les relations individuelles que collectives. Nous apportons des solutions concrètes à des contraintes opérationnelles en tenant compte de l’environnement juridique, des exigences de l’activité et de la stratégie de l’entreprise.</p>
 
 
   <div id="socialtwoparawrap">
@@ -161,13 +168,13 @@ include "menu.php";
 
 
 <div id="droitimmowrap">
-  <h1 id="droittitle">Droit immobilier</h1>
-  <p id="socialfirstpara">Nous assistons les entreprises du secteur dans le cadre de leurs différentes opérations immobilières et de construction, dans les différentes phases de la vie d’un immeuble (édification, réhabilitation, mise en exploitation…).</p>
+  <h1 id="droitimmotitle">Droit immobilier</h1>
+  <p class="immofirstpara">Nous assistons les entreprises du secteur dans le cadre de leurs différentes opérations immobilières et de construction, dans les différentes phases de la vie d’un immeuble (édification, réhabilitation, mise en exploitation…).</p>
 
 
-  <div id="socialtwoparawrap">
+  <div id="immotwoparawrap">
 
-    <div id="socialparaone">
+    <div id="immoparaone">
     <p id="relationco">Droit immobilier</p>
     <ul>
       <li>Suivi des opérations de ventes immobilières</li>
@@ -187,7 +194,7 @@ include "menu.php";
 
     </div>
 
-    <div id="socialparatwo">
+    <div id="immoparatwo">
 
     <ul>
       <li>Assistance et conseil aux maitres d’ouvrage et constructeurs</li>
@@ -304,13 +311,13 @@ include "menu.php";
 
 
 <div id="droitfiscwrap">
-  <h1 id="droittitle">Droit fiscal</h1>
-  <p id="socialfirstpara">Nous accompagnons nos clients - entreprises françaises et étrangères, établissements financiers et fonds d’investissements, établissements publics et associations, particuliers - dans la gestion fiscale de leurs opérations, en France comme à l’étranger, et les aidons à anticiper et maitriser le poids de leur fiscalité ainsi que les enjeux y étant liés.</p>
+  <h1 id="droitfisc">Droit fiscal</h1>
+  <p class="fiscfirstpara">Nous accompagnons nos clients - entreprises françaises et étrangères, établissements financiers et fonds d’investissements, établissements publics et associations, particuliers - dans la gestion fiscale de leurs opérations, en France comme à l’étranger, et les aidons à anticiper et maitriser le poids de leur fiscalité ainsi que les enjeux y étant liés.</p>
 
 
-  <div id="socialtwoparawrap">
+  <div id="fisctwoparawrap">
 
-    <div id="socialparaone">
+    <div id="fiscone">
     <p id="relationco">Fiscalité des entreprises</p>
     <ul>
       <li>Structuration fiscale des groupes et des opérations corporate</li>
@@ -322,7 +329,7 @@ include "menu.php";
 
     </div>
 
-    <div id="socialparatwo">
+    <div id="fiscparatwo">
     <p id="relationco">Fiscalité personnelle</p>
     <ul id="droitfiscul">
       <li>Conseil fiscal du dirigeant d’entreprise (régime fiscal et social du dirigeant, fiscalité liée à la cession ou la transmission d’entreprise, mobilité internationale, management packages) ;</li>

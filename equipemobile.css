@@ -1,0 +1,64 @@
+
+@media (max-device-width: 550px){
+
+#poster1{
+  margin-bottom: -70px;
+}
+
+#poster1 h5{
+    font-size: 37px;
+    margin-top: -25px;
+     }
+
+
+.firstname{
+    font-size: 37px;
+    margin-top: 0px;
+    
+}
+
+
+     .surname{
+        font-size: 37px;
+        margin-top: -35px;
+     }
+
+
+
+     #nospartenaires p{
+
+       font-size: 30px;
+       width: 220px;
+
+     }
+
+     #revo{
+        margin-left: 100px;
+        height: 110px;
+      }
+
+
+   
+
+   .flechegauch{
+    position: absolute;
+    display: block;
+    width: 50px;
+    z-index: 5000;
+    margin-left: 2%;
+    margin-top: 300px;
+ }
+ 
+.flechedroit{
+    position: absolute;
+    display: block;
+    width: 50px;
+    z-index:5000;
+    margin-left: 94%;
+    margin-top: 300px;
+ }
+
+
+
+
+    }

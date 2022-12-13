@@ -5,8 +5,10 @@
 <title>Mentions legales</title>
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
+ <link rel="stylesheet" href="menustyle/menumobile.css">
 
  <link rel="stylesheet" href="mentionsl.css">
+ <link rel="stylesheet" href="mentionslcssmobile.css">
  <link rel="stylesheet" href="footercss.css">
 
 </head>

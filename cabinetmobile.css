@@ -1,0 +1,46 @@
+@media (max-device-width: 550px){
+
+
+
+    #wrap2{
+
+       
+        grid-template-columns: 100%;
+        height: 1100px;
+    }
+
+
+
+    #leftside1{
+      
+   
+        width: 90%;
+       
+        height: 350px;
+    }
+
+    #leftside1 p{
+        text-align: left;
+        font-size: 37px;
+        line-height: 40px;
+        width: 90%;
+    }
+
+
+
+
+    #rightside{
+  
+        width: 100%;
+        height: 700px;
+      
+        margin-top: -7px;
+      
+        overflow: hidden;
+        z-index: -10;
+        }
+
+        
+
+
+}

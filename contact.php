@@ -6,9 +6,10 @@
 
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
+ <link rel="stylesheet" href="menustyle/menumobile.css">
 
  <link rel="stylesheet" href="contact.css">
-
+ <link rel="stylesheet" href="contactmobile.css">
  
 
  <link rel="stylesheet" href="footercss.css">  
@@ -41,15 +42,17 @@
 
 <p id="james"> JAMES AVOCATS</p>
 
-<hr>
+
+
+<div id="ligneblanche"></div>
 
 <p id="boul">17-19 Boulevard Montmartre <br>75002 Paris</p>
 
-<hr>
+<div id="ligneblanche"></div>
 
 <p id="mail">Email : contact@james-avocats.fr</p> <p id="num">Tel : 01.42.79.52.00</p>
 
-<hr>
+<div id="ligneblanche"></div>
  
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"

@@ -88,7 +88,7 @@
 }
 
 
-#socialfirstpara{
+.socialfirstpara{
     padding-left: 8.7%;
     width:80%;
     color: white;
@@ -203,9 +203,15 @@
 /* fourth part */
 
 
+#droitimmotitle{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: mySecFont;
+    font-size: 30px;
+}
 
 #droitimmowrap{
-    
+    padding-left: 117px;
     background-color: #57594B;
     min-height: 453px;
     color: white;
@@ -216,6 +222,34 @@
 }
 
 
+.immofirstpara{
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 23px;
+    font-family: mySecFont;
+    width: 90%;
+}
+
+#immotwoparawrap{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 23px;
+    font-family: mySecFont;
+
+}
+#immoparaone li{
+    margin-left: -40px;
+}
+
+
+#immoparatwo{
+    width: 90%;
+    margin-top: 60px;
+}
 /* 
 fifth part */
 
@@ -277,8 +311,7 @@ margin-left: 10px;
 
 /* sixth part */
 
-
-#droitfiscul li{
+ #droitfiscul li{
 
     margin-left: -25px;
 }
@@ -291,8 +324,38 @@ margin-left: 10px;
     padding-bottom: -10px;
     margin-bottom: -30px;
    
+} 
+
+
+#droitfisc{
+    font-family: mySecFont;
+    padding-left: 8.7%;
+    padding-top: 43px;
+    font-size: 30px;
+    color: white;
 }
 
+
+
+.fiscfirstpara{
+    padding-left: 8.7%;
+    width:80%;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 23px;
+    font-family: mySecFont;
+}
+
+#fisctwoparawrap{
+    padding-left: 8.7%;
+    width:80%;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 23px;
+    font-family: mySecFont;
+}
 
 /* seventh part */
 

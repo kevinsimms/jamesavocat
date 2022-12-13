@@ -1,0 +1,69 @@
+
+@media (max-device-width: 550px){
+
+
+
+#imggirafe{
+   width: 111.5%;
+}
+
+
+#wrap2{
+
+    display:grid;
+    grid-template-columns: 100%;
+    height: 1900px;
+    margin-top:-200px;
+    margin-bottom:00px ;
+}
+
+
+
+#james{
+    padding-top:15px ;
+   padding-bottom:14px;
+   padding-left:45px ;
+  font-size:37px;
+   
+  
+}
+
+#rightside{
+    margin-top: -410px;
+    height: 150%;
+}
+
+
+
+#boul{
+   font-size: 37px;
+  
+  padding-top: 17px;
+  padding-left: 45px;
+  padding-bottom: 20px;
+}
+
+#mail{
+   font-size: 37px;
+      
+      padding-top:17px ;
+      padding-left: 45px;
+
+}
+
+#num{
+    font-size: 37px;
+   padding-bottom:20px ;
+   padding-left: 45px;
+}
+
+
+#inlineFrameExample{
+    
+    margin-top: 140px;
+    
+}
+
+
+
+}

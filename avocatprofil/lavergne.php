@@ -5,10 +5,15 @@
 
 <div class="profilwrap">
 
+<img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
+
 
 <div class="imagewrap">
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocatgrand" >
 </div>
+
+<img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
+
 
 <div class="textwrap">
     <p>Anne Laure est l’un des Associés fondateurs de JAMES AVOCATS.</p>

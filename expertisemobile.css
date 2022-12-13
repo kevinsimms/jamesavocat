@@ -1,0 +1,159 @@
+@media (max-device-width: 550px){
+
+#windowswrap{
+
+    margin-top: -600px;
+}
+
+
+/* droit social */
+
+#droittitle{
+   
+    font-size: 45.80px;
+    
+}
+
+
+
+ .socialfirstpara{
+   
+    
+    line-height: 30px;
+    width:800px;
+    font-size: 14.65px;
+    
+} 
+
+
+#socialtwoparawrap{
+
+    
+    font-size: 41.3px;
+   
+    line-height: 50px;
+    grid-template-columns: 95%;
+  
+}
+
+#socialparaone{
+    font-size: 14.65px;
+}
+
+
+
+#socialparatwo{
+    width: 90%;
+    font-size: 30px;
+}
+
+
+/* droit commercial */
+
+#droitcomleft h1{
+    
+    
+    font-size: 45.80px;
+}
+
+#droitcomleft p{
+   
+    font-size: 30.165px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: left;
+    
+}
+
+#droitcomleft li{
+  
+    font-size: 14.65px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+
+
+/* droit immobilier */
+
+
+
+
+
+
+/* droit societes */
+
+#droitsocieteright h1{
+    padding-left: 30px;
+    font-family: mySecFont;
+    font-size: 60px;
+}
+
+
+
+#droitsocieteright p{
+  
+    font-size: 27.7px;
+    line-height: 30px;
+  
+}
+
+#droitsocieteright ul{
+    font-size: 27.7px;
+    line-height: 30px;
+   
+}
+
+
+/* droit fiscal */
+
+#droitfisc{
+   
+    font-size: 60px;
+    
+}
+
+.fiscfirstpara{
+    font-size: 41.3px;
+    line-height: 50px;
+
+}
+
+#fisctwoparawrap{
+    font-size: 41.3px;
+    line-height: 50px;
+}
+
+#fiscone{
+    font-size: 41.3px;
+    line-height: 50px;
+}
+
+
+#fiscparatwo{
+    font-size: 41.3px;
+    line-height: 50px;
+}
+
+
+/* propriete intellectuelle */
+
+#propricomleft h1{
+    font-size: 46.7px;
+    font-family: mySecFont;
+}
+
+
+#propricomleft p{
+   
+    font-size: 14.65px;
+    
+}
+
+#propricomleft ul{
+   
+    font-size: 14.65px;
+}
+
+
+}

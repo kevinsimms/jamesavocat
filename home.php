@@ -8,6 +8,7 @@
  <link rel="stylesheet" href="menustyle/menumobile.css">
 
  <link rel="stylesheet" href="homepage.css">
+ <link rel="stylesheet" href="homemobile.css">
 
  <link rel="stylesheet" href="footercss.css">
  <!--   <script src="script.js"></script> -->
@@ -192,7 +193,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
 <div id="firstwindow" onclick="scroll1()">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
-<div id="secondwindow"> <div class="etiquettemaispasque" id="sixth"> DROIT COMMERCIAL</div>  </div>
+<div id="secondwindow"> <div class="etiquettemaispasque" > DROIT COMMERCIAL</div>  </div>
 <div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div>  </div>
 
 <div id="verticalbar1"></div>
@@ -206,7 +207,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 <div id="secondwindowline">
 <img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
 <div id="fourthwindow">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
-<div id="fifthwindow">  <div class="etiquettemaispasque" id="sixth"> DROIT FISCAL</div> </div>
+<div id="fifthwindow">  <div class="etiquettemaispasque" > DROIT FISCAL</div> </div>
 <div id="sixthwindow">  <div class="etiquettemaispasque" id="sixth2"> PROPRIÉTÉ INTELLECTUELLE</div> </div>
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 

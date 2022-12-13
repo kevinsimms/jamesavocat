@@ -6,9 +6,11 @@
 
 <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
+ <link rel="stylesheet" href="menustyle/menumobile.css">
 
 
  <link rel="stylesheet" href="cabinet.css">
+ <link rel="stylesheet" href="cabinetmobile.css">
 
 
  <link rel="stylesheet" href="footercss.css">

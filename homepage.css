@@ -420,6 +420,19 @@ width: 100%;
 
  /* fourthpart */
 
+ #poster1:hover{
+   
+  
+  transform: scale(1.05);
+
+  transition-duration: 500ms;
+transition-property: transform;
+  
+}
+
+
+
+
 .photoavocat:hover{
     transform: scale(1.05);
 
@@ -508,7 +521,7 @@ transition-property: transform;
     padding-top: 50px;
     margin-top: 365px;
     padding-left: 8%;
-    font-size: 40px;
+    font-size: 30px;
     font-family: mySecFont;
        font-weight: 900;
        
@@ -647,7 +660,7 @@ transition-property: transform;
    #maispasquetitle h2{
     font-family: mySecFont;
 padding-left: 8%;
-font-size: 40px;
+font-size: 30px;
 width: 120%;
    }
 
@@ -673,7 +686,7 @@ width: 120%;
  .pmaispasque{
     
     opacity: 0;
-    transition: 4s all ease;
+    transition: 6s all ease;
  }
 
  .pmaispasque.active{
@@ -685,7 +698,7 @@ width: 120%;
  .pasque{
     
   opacity: 0;
-  transition: 6s all ease;
+  transition: 8s all ease;
 }
 
 .pasque.active{
@@ -815,11 +828,34 @@ width: 120%;
 
 
    #sixth{
-    padding-left: 15px;
+    padding-left: 28px;
    }
 
    #sixth2{
-    padding-left: 18px;
+    padding-left: 35px;
+   }
+
+   #prop{
+    padding-left: 30px;
+   }
+
+   #immo{
+
+    opacity: 1;
+    position: absolute;
+   
+    background-color: black;
+color:white;
+font-family: mySecFont;
+   font-weight: 600;
+   font-size: 17px;
+    height: 35px;
+    width: 95%;
+    
+    padding-top: 15px;
+    padding-bottom: -5px;
+    padding-right: 10px;
+    padding-left: 20px;
    }
 
    #horizontalbar{
@@ -879,13 +915,13 @@ width: 120%;
    
     background-color: black;
 color:white;
-   font-family: Helvetica Neue;
+font-family: mySecFont;
    font-weight: 600;
-   font-size: 10px;
-    height: 20px;
+   font-size: 17px;
+    height: 35px;
     width: 95%;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-left: 25px;
+    padding-top: 15px;
     padding-bottom: -5px;
     padding-right: 10px;
    
@@ -968,6 +1004,26 @@ color:white;
       
     }
 
+
+
+    @media (max-width: 885px){
+
+      .etiquettemaispasque{
+      
+        height: 42px;
+        text-align: left;
+        margin-left: 0px;
+        
+       font-size: 12px;
+       width: 90%;
+       
+       }
+
+    }
+
+
+
+
 @media (max-width: 757px){
 
 
@@ -993,6 +1049,8 @@ color:white;
       background-color: white;
 
 
+
+      
 
     
       
@@ -1052,5 +1110,22 @@ color:white;
         
             } */
 
+            .etiquettemaispasque{
+      
+              height: 42px;
+              text-align: left;
+              margin-left: 0px;
+              
+             font-size: 12px;
+             width: 87%;
 
-}
+             padding-left: 13px;
+             
+             }
+
+             #sixth2{
+              padding-left: 13px;
+             }
+      
+          }
+

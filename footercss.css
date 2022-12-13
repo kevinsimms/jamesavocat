@@ -81,3 +81,51 @@ z-index: 20;
 #ici:hover{
     color: #FFAA46;
 }
+
+
+
+
+@media (max-device-width: 550px){
+
+
+    #footerwrap{
+        grid-template-columns: 100%;
+        height: 500px;
+  
+    }
+
+
+
+    .logoavocatblanc{
+        width: 380px;
+      
+    }
+
+    #footerleft{
+       
+        font-size: 35px;
+    }
+
+    #copy{
+        font-size: 20px;
+        margin-top: 170px;
+        position: absolute;
+       
+    }
+
+
+
+    #footerright{
+   
+   margin-top: -270px; 
+   margin-left: 45px;  
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #mentionsl{
+        font-size: 20px;
+       
+    }
+
+}
