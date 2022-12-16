@@ -205,13 +205,13 @@
 
 #droitimmotitle{
     padding-top: 40px;
-    padding-left: 30px;
+   /*  padding-left: 30px; */
     font-family: mySecFont;
     font-size: 30px;
 }
 
 #droitimmowrap{
-    padding-left: 117px;
+    padding-left: 8.5%;
     background-color: #57594B;
     min-height: 453px;
     color: white;
@@ -223,7 +223,7 @@
 
 
 .immofirstpara{
-    padding-left: 30px;
+   /*  padding-left: 30px; */
     font-size: 17px;
     font-weight: 200;
     line-height: 23px;
@@ -234,7 +234,7 @@
 #immotwoparawrap{
     display: grid;
     grid-template-columns: 45% 45%;
-    padding-left: 30px;
+   /*  padding-left: 30px; */
     font-size: 17px;
     font-weight: 200;
     line-height: 23px;
@@ -242,7 +242,7 @@
 
 }
 #immoparaone li{
-    margin-left: -40px;
+    margin-left: -34px;
 }
 
 

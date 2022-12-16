@@ -1,4 +1,4 @@
-@media (max-device-width: 550px){
+ @media (max-device-width: 550px){ 
 
 #windowswrap{
 
@@ -8,26 +8,38 @@
 
 /* droit social */
 
+html * {max-height:1000000px;}
+
+
+#droitsocialwrap{
+    width: 100%;
+    max-height: 999999px;
+    text-size-adjust: none;
+}
+
+
 #droittitle{
+    text-size-adjust: none;
+    font-size: 60px;
+    max-height: 999999px;
    
-    font-size: 45.80px;
     
 }
 
 
 
  .socialfirstpara{
-   
-    
-    line-height: 30px;
+    text-size-adjust: none;
+    max-height: 999999px;
+    line-height: 50px;
     width:800px;
-    font-size: 14.65px;
+    font-size: 40px;
     
 } 
 
 
 #socialtwoparawrap{
-
+    text-size-adjust: none;
     
     font-size: 41.3px;
    
@@ -37,14 +49,14 @@
 }
 
 #socialparaone{
-    font-size: 14.65px;
+    font-size: 40px;
 }
 
 
 
 #socialparatwo{
     width: 90%;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
@@ -52,13 +64,13 @@
 
 #droitcomleft h1{
     
-    
-    font-size: 45.80px;
+     text-size-adjust: none;
+    font-size: 60px;
 }
 
 #droitcomleft p{
-   
-    font-size: 30.165px;
+    text-size-adjust: none;
+    font-size: 40px;
     font-weight: 100;
     line-height: 50px;
     text-align: left;
@@ -66,8 +78,8 @@
 }
 
 #droitcomleft li{
-  
-    font-size: 14.65px;
+   text-size-adjust: none;
+    font-size: 40px;
     font-weight: 100;
     line-height: 50px;
 }
@@ -77,6 +89,33 @@
 /* droit immobilier */
 
 
+#droitimmowrap h1{
+    
+     text-size-adjust: none;
+    font-size: 60px;
+}
+
+.immofirstpara{
+    text-size-adjust: none;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: left;
+    
+}
+
+#immotwoparawrap{
+   text-size-adjust: none;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+    grid-template-columns: 95%;
+    
+}
+
+#immoparatwo{
+    margin-left: -25px;
+}
 
 
 
@@ -84,23 +123,27 @@
 /* droit societes */
 
 #droitsocieteright h1{
-    padding-left: 30px;
+    padding-left: 60px;
     font-family: mySecFont;
     font-size: 60px;
+     text-size-adjust: none;
+
 }
 
 
 
 #droitsocieteright p{
   
-    font-size: 27.7px;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 50px;
+    text-size-adjust: none;
   
 }
 
 #droitsocieteright ul{
-    font-size: 27.7px;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 50px;
+    text-size-adjust: none;
    
 }
 
@@ -114,24 +157,24 @@
 }
 
 .fiscfirstpara{
-    font-size: 41.3px;
+    font-size: 40px;
     line-height: 50px;
 
 }
 
 #fisctwoparawrap{
-    font-size: 41.3px;
+    font-size: 40px;
     line-height: 50px;
 }
 
 #fiscone{
-    font-size: 41.3px;
+    font-size: 40px;
     line-height: 50px;
 }
 
 
 #fiscparatwo{
-    font-size: 41.3px;
+    font-size: 40px;
     line-height: 50px;
 }
 
@@ -139,21 +182,20 @@
 /* propriete intellectuelle */
 
 #propricomleft h1{
-    font-size: 46.7px;
+    font-size: 60px;
     font-family: mySecFont;
 }
 
 
 #propricomleft p{
-   
-    font-size: 14.65px;
+    line-height: 50px;
+    font-size: 40px;
     
 }
 
 #propricomleft ul{
-   
-    font-size: 14.65px;
+    line-height: 50px;
+    font-size: 40px;
 }
 
-
-}
+ } 

@@ -1,3 +1,11 @@
+@font-face {
+   font-family: mySecFont;
+   src: url(HelveticaNeueLight.ttf);
+   font-weight: 100;
+ }
+
+
+
 .photoensemble{
     position: relative;
     
@@ -178,7 +186,7 @@ transition-property: transform;
 
 
      #nospartenaires p{
-
+      font-family: mySecFont;
         color: white;
        /*  padding-left: 6.5%; */
         padding-top: 30px;

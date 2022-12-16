@@ -49,9 +49,9 @@
 
     .textwrap{
        text-align: left;
-        margin-top: 330px;
+        margin-top: 100px;
        padding-left: 50px;
-    font-size: 37px;
+    font-size: 40px;
     line-height: 40px;
     
     
@@ -69,6 +69,13 @@
 
 
 
+    .mail{font-size: 40px;
+  }
+
+  .photolinkdin{
+   height: 100px;
+   
+}
 
 
 

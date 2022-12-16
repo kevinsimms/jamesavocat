@@ -24,7 +24,10 @@
 
  <!--  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> --> 
 
-
+<!--  <meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+ -->
   
 
 </head>
@@ -32,6 +35,9 @@
 
 
 <?php
+
+$link='expertiseseng.php';
+
 include "menu.php"; 
 ?>
 
@@ -46,7 +52,7 @@ include "menu.php";
 <img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
 <div id="firstwindow" onclick="scroll1()">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
 <div id="secondwindow"onclick="scroll2()"> <div class="etiquettemaispasque"> DROIT COMMERCIAL</div>  </div>
-<div id="thirdwindow" onclick="scroll3()">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div>  </div>
+<div id="thirdwindow" onclick="scroll3()">  <div class="etiquettemaispasque" id="sixth"> DROIT IMMOBILIER</div>  </div>
 
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 
@@ -60,7 +66,7 @@ include "menu.php";
 <img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
 <div id="fourthwindow"onclick="scroll4()">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
 <div id="fifthwindow" onclick="scroll5()">  <div class="etiquettemaispasque"> DROIT FISCAL</div> </div>
-<div id="sixthwindow" onclick="scroll6()">  <div class="etiquettemaispasque" > PROPRIÉTÉ INTELLECTUELLE</div> </div>
+<div id="sixthwindow" onclick="scroll6()">  <div class="etiquettemaispasque" id="sixth2" > PROPRIÉTÉ INTELLECTUELLE</div> </div>
 <div id="verticalbar1"></div>
 <div id="verticalbar2"></div> 
 

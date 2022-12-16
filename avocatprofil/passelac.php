@@ -6,7 +6,7 @@
 
 
 
-<h2 id="titreavocat" class="profilname">Anne-Charlotte PASSELAC</h2>
+<h2 id="titreavocat" class="profilname">Anne Charlotte PASSELAC</h2>
 
 <div class="profilwrap">
 
@@ -18,6 +18,11 @@
 
 <div class="imagewrap">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocatgrand" >
+
+<h2 class="mail"> <a href="mailto:ac.passelac@james-avocats.fr">ac.passelac@james-avocats.fr</a></h2>
+<a  href="https://www.linkedin.com/in/anne-charlotte-passelac-86a2a010/"> <img src="images/LinkedIn-Symbole.png" class="photolinkdin" alt ="linkdin"  height="50"></a>
+
+
 </div>
 
 <img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
@@ -35,14 +40,12 @@
 
 </div>
 
-<br><br><br><br><br><br><br><br>
+<br><br>
 
 
-<div class="bandedessous">
-<h2> <a href="mailto:ac.passelac@james-avocats.fr">ac.passelac@james-avocats.fr</a></h2>
-<a class="photolinkdin" href="https://www.linkedin.com/in/anne-charlotte-passelac-86a2a010/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin"  height="50"></a>
+<!-- <div class="bandedessous">
 
-</div>
+</div> -->
 
 
 

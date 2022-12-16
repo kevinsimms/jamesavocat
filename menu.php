@@ -3,7 +3,7 @@
 <div id="wrap">
 
 <a href="home.php"><img src="images/jamesavocatslogo.jpeg" alt ="logo1" class="logo1" > </a>
-<img src="images/drapeauanglais.jpeg" alt ="drapeauuk" class="drapeauuk" > 
+<a href=<?php echo $link ?>><img src="images/drapeauanglais.jpeg" alt ="drapeauuk" class="drapeauuk" >  </a>
 
 
 <div id="vlinewrap">
@@ -46,6 +46,8 @@
 
 
 </ul>
+<hr>
+
 </div>
 
 </div>

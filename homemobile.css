@@ -19,19 +19,20 @@
 
       #secondpart{
    
-       
+       padding-top: 15px;
         grid-template-columns: 73%;
         
-       
+      
         
     }
 
 
     #secondpartinner p{
+        text-size-adjust: none;
         text-align: left;
         margin-left: -50px;
-         font-size: 25px;
-         line-height: 40px;
+         font-size: 40px;
+         line-height: 50px;
          width:800px;
         
         
@@ -60,6 +61,7 @@
     
      .apres.active{
         opacity: 1;
+        padding-bottom: 52px;
        
      } 
 
@@ -70,7 +72,7 @@
 #thirdpartbis{
    
      margin-top: -280px; 
-     margin-bottom: -280px;
+     margin-bottom: -510px;
 }
 
 
@@ -85,11 +87,17 @@
 
 #titleoffourth p{
     text-align: left;
-   font-size: 41px;
+   font-size: 40px;
    line-height: 50px;
    width: 75%;
 
 } 
+
+
+
+#poster1{
+    margin-bottom: -70px;
+}
 
 
 #poster1 h5{
@@ -130,7 +138,7 @@ width: 180%;
 
    #maispasquetitle p{
    text-align: left;
-    font-size: 37px;
+    font-size: 40px;
     width: 180%;
    }
 
@@ -147,4 +155,13 @@ width: 180%;
 
 
 
+}
+
+
+@media screen and (min-device-width: 550px) and (max-device-width: 1024px){
+
+
+    .etiquettemaispasque{
+        letter-spacing: -1px;
+    }
 }

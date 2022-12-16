@@ -1,7 +1,7 @@
 <div class="profilbigwrap3">
 
 
-<h2 class="profilname">Elodie PINET</h2>
+<h2 id="titreavocat3" class="profilname">Elodie PINET</h2>
 
 <div class="profilwrap">
 
@@ -10,6 +10,9 @@
 
 <div class="imagewrap">
 <img src="images/pinet.jpeg" alt ="photo1" class="photoavocatgrand" >
+<h2 class="mail"> <a href="mailto:e.pinet@james-avocats.fr">e.pinet@james-avocats.fr</a></h2>
+<a href="https://www.linkedin.com/in/elodie-pinet-202a7852/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+
 </div>
 
 <img id="flechedroite" onclick="right()" class="flechedroit" src="images/fleche_droite.png" alt ="fdroite" > 
@@ -27,14 +30,12 @@
 
 </div>
 
-<br><br><br><br><br><br><br><br>
+<br><br>
 
-<div class="bandedessous">
+<!-- <div class="bandedessous">
 
-<h2> <a href="mailto:e.pinet@james-avocats.fr">e.pinet@james-avocats.fr</a></h2>
-<a href="https://www.linkedin.com/in/elodie-pinet-202a7852/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
 
-</div>
+</div> -->
 
 
 </div>

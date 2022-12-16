@@ -26,10 +26,13 @@
 <body>
 
 
-<?php
-$link='cabineteng.php';
 
-include "menu.php"; 
+
+<?php
+$link='cabinet.php';
+
+
+include "menueng.php"; 
 ?>
 
 
@@ -40,12 +43,12 @@ include "menu.php";
 
 
 <div id="leftside1">
-<p> <b>Après 10 ans de travail en équipe</b> au sein d’un même Cabinet, 
-Anne Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
-en 2022 JAMES AVOCATS, cabinet qui incarne leur vision résolument <b>moderne</b> de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
+<p> After 10 years of working as a team in the same firm, Anne-Charlotte Passelac, Anne-Laure Lavergne and Elodie Pinet created
+  <b>JAMES AVOCATS</b>
+  in 2022, a firm that embodies their resolutely modern vision of the legal profession and conveys their shared values.</p>
  
-<p><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.</p>
-<p>Véritable <b>Business Partner</b>, JAMES AVOCATS les accompagne dans la durée et leur apporte au quotidien réponses et <b>solutions sur mesure, efficaces, pragmatiques et innovantes</b>, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
+<p><b>Availability, accessibility, creativity and transparency</b>  are at the heart of the team's relationship with its clients. As a true business partner, JAMES AVOCATS supports its clients over the long term and provides them with
+ <b> tailored, effective, pragmatic and innovative answers and solutions on a daily basis</b>, on all the issues that are central to business life.</p>
 
 
 
@@ -76,7 +79,7 @@ en 2022 JAMES AVOCATS, cabinet qui incarne leur vision résolument <b>moderne</b
 
 
 <?php
-  include "footer.php";  
+include "footereng.php"; 
 ?>
 
 

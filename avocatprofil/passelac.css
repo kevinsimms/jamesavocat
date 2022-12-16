@@ -131,6 +131,14 @@
     margin-bottom: -10%;
  }
 
+.mail{margin-top: 15%;
+    font-family: mySecFont;
+    font-weight: 100;
+}
+
+
+
+ 
 
  @font-face {
     font-family: mySeFont;
@@ -199,9 +207,9 @@ float: left;
 
 .photolinkdin{
     position: relative;
-    margin-left: 270px;
-    padding-top: 26px;
-    float: left;
+    margin-left: -15px;
+    margin-top: 0px;
+    clear: left;
    
 }
 
@@ -234,7 +242,9 @@ float: left;
       }
 
 
-     
+    .mail{
+        margin-top: 250px;
+    }
 
     
 
@@ -265,6 +275,9 @@ float: left;
        
     }
 
+    .mail{
+       font-size: 16px;
+    }
 
 }
 

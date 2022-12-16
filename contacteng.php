@@ -24,8 +24,9 @@
 
 <?php
 
-$link='contacteng.php';
- include "menu.php";  
+$link='contact.php';
+
+ include "menueng.php";  
 ?>
 
 <div id="wrap2">
@@ -75,7 +76,7 @@ $link='contacteng.php';
 
 
 <?php
-   include "footer.php";  
+   include "footereng.php"; 
 ?>
 
  <script src="menustyle/scriptmenu.js"></script> 

@@ -19,8 +19,10 @@
 
 
 <div class="textwrap">
-    <p>Formée par l’ENADEP, (Ecole nationale de droit et de procédure pour le personnel des avocats) dédiée à la formation professionnelle du personnel des cabinets d'avocats et des professions juridiques et judiciaires, Malika a obtenu le titre de Secrétaire juridique en 2018, puis le diplôme d’Assistante Juridique en 2021.</p>
-<p>Malika s’est spécialisée en Droit des Sociétés et assiste les membres du Cabinet dans le suivi du secrétariat juridique des sociétés.</p>
+    <p>Trained at the ENADEP, (National School of Law and Procedure for legal personnel) for the professional training of personnel of law firms and the legal and judicial professions, Malika obtained the title of Legal Secretary in 2018, then the diploma of Legal Assistant in 2021.
+</p>
+<p>Malika specializes in Corporate Law and assists the members of the firm in supporting the legal secretariats of the companies.
+</p>
 
 </div>
 

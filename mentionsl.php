@@ -16,6 +16,9 @@
 
 
 <?php
+
+$link='mentionsleng.php';
+
 include "menu.php"; 
 ?>
 

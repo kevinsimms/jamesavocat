@@ -27,10 +27,9 @@
 
 <?php
 
-$link='equipeeng.php';
+$link='equipe.php';
 
-include "menu.php"; 
-
+include "menueng.php"; 
 ?>
 
 
@@ -49,7 +48,7 @@ include "menu.php";
     <div id=name1>
 <h4 class="firstname">Anne Charlotte</h4><h4 class="surname"> PASSELAC</h4>
    
-<h5>Avocat associée</h5>
+<h5>Partner</h5>
 </div>
 </div>
 
@@ -61,7 +60,7 @@ include "menu.php";
   <div id=name2>
 <h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
   
-<h5>Avocat associée</h5>
+<h5>Partner</h5>
 
 </div>
 </div>
@@ -73,7 +72,7 @@ include "menu.php";
 <div id=name3>
 <h4 class="firstname">Elodie</h4><h4 class="surname"> PINET</h4>
 
-<h5>Avocat associée</h5>
+<h5>Partner</h5>
 </div>
 </div>
 
@@ -84,7 +83,7 @@ include "menu.php";
 <div id=name4>
 <h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
 
-<h5>Avocat collaborateur</h5>
+<h5>Associate</h5>
 </div>
 </div>
 
@@ -96,7 +95,7 @@ include "menu.php";
 <div id=name5>
 <h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
 
-<h5>Assistante juridique</h5>
+<h5>Legal assistant</h5>
 </div>
 </div>
 
@@ -118,11 +117,11 @@ include "menu.php";
 
 
 <?php
-include "avocatprofil/passelac.php";
- include "avocatprofil/lavergne.php";
- include "avocatprofil/elodie.php";
- include "avocatprofil/mery.php";
- include "avocatprofil/cusset.php";
+include "avocatprofil/passelaceng.php";
+ include "avocatprofil/lavergneeng.php";
+ include "avocatprofil/elodieeng.php";
+ include "avocatprofil/meryeng.php";
+ include "avocatprofil/cusseteng.php";
 
 ?>
 
@@ -132,7 +131,7 @@ include "avocatprofil/passelac.php";
  
 
 <div id="nospartenaires">
-<p>Nos partenaires :</p>
+<p>Our partners :</p>
 
 <img id="revo" src="images/revoavocat.png" alt ="revo" > 
 
@@ -147,7 +146,7 @@ include "avocatprofil/passelac.php";
 
 
 <?php
- include "footer.php"; 
+  include "footereng.php"; 
 ?>
 
 <script src="menustyle/scriptmenu.js"></script>

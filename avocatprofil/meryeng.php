@@ -19,8 +19,9 @@
 
 
 <div class="textwrap">
-    <p>Titulaire du Master II « Droit de la concurrence et de la distribution » délivré par l’Université de Caen- Normandie, et fort de plusieurs expériences tant dans le monde de l’entreprise qu’auprès du Pôle économique et commercial de la Cour d’appel de Paris, Antoine intervient principalement aux côtés des entreprises afin de les accompagner sur les problématiques « B to B » et « B to C ».</p>
-<p>Avocat au Barreau de Paris depuis 2019, Antoine possède de surcroît une expérience significative en matière de contentieux, laquelle lui permet d’assurer efficacement la défense des intérêts des entreprises devant les juridictions civiles et commerciales. </p>
+    <p>Antoine holds a Master II degree in "Competition and Distribution Law" from the University of Caen-Normandy and has several years of experience both in the business world and with the economic and commercial division of the Paris Court of Appeal. He works mainly with companies to assist them with B2B and B2C issues.
+</p>
+<p>Admitted to the Paris Bar in 2019, Antoine also has significant experience in litigation, which enables him to defend the interests of companies effectively in the civil and commercial courts.</p>
     
 </div>
 

@@ -88,6 +88,16 @@ font-weight: 100;
 
 }
 
+.drapeaufrance{
+  position: absolute;
+  width:27px;
+  float: right;
+  margin-left: 97%;
+  margin-top: 5px;
+
+}
+
+
 
 .drapeauuk{
     position: absolute;
@@ -130,6 +140,9 @@ margin-left: -501px;
     font-weight: 100;
     
 }
+
+
+#menudef{float:left; width: 400px;}
 
 
 

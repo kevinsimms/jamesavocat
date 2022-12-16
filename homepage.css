@@ -83,7 +83,7 @@ padding-top: 10px;
    
     width: 100%;
    
-    background-color: #57594B;
+    background-color: white;
     position: relative;
     
     /* height: 433px; */
@@ -142,7 +142,7 @@ padding-top: 10px;
 
 #secondpartinner{
     
-    color: white;
+    color: black;
     
     position: relative;
     padding-top:5%;
@@ -828,11 +828,11 @@ width: 120%;
 
 
    #sixth{
-    padding-left: 28px;
+    padding-left: 20px;
    }
 
    #sixth2{
-    padding-left: 35px;
+    padding-left: 27px;
    }
 
    #prop{
@@ -1075,7 +1075,7 @@ font-family: mySecFont;
         
         z-index: 10;
         color: white;
-        margin-top: -26%;
+        margin-top: -30%;
         width: 400px;
         margin-left: auto;
         margin-right: auto;
@@ -1117,7 +1117,7 @@ font-family: mySecFont;
               margin-left: 0px;
               
              font-size: 12px;
-             width: 87%;
+             width: 85%;
 
              padding-left: 13px;
              
