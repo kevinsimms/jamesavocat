@@ -1,0 +1,16 @@
+@media (max-device-width: 1024px){
+
+
+    #line{
+        width:23px;
+        border: 1px solid #000000;
+        height:0px ;
+        margin-top:20px;
+        position: absolute;
+    }
+
+
+
+
+
+}

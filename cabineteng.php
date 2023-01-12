@@ -43,7 +43,7 @@ include "menueng.php";
 
 
 <div id="leftside1">
-<p> After 10 years of working as a team in the same firm, Anne-Charlotte Passelac, Anne-Laure Lavergne and Elodie Pinet created
+<p> After 10 years of working as a team in the same firm, Anne Charlotte Passelac, Anne-Laure Lavergne and Elodie Pinet created
   <b>JAMES AVOCATS</b>
   in 2022, a firm that embodies their resolutely modern vision of the legal profession and conveys their shared values.</p>
  

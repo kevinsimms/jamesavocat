@@ -46,7 +46,8 @@
 
 
 </ul>
-<hr>
+<br>
+<hr id="linespace">
 
 </div>
 

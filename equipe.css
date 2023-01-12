@@ -5,6 +5,17 @@
  }
 
 
+ html,body{
+   overflow-x: hidden;
+}
+
+ body { 
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px
+ }
+
 
 .photoensemble{
     position: relative;
@@ -213,7 +224,7 @@ transition-property: transform;
 
 
     #revo{
-      padding-top: 50px;
+      padding-top: 25px;
       height: 80px;
     }
 

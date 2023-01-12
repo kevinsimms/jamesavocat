@@ -13,7 +13,7 @@ html * {max-height:1000000px;}
 
 #droitsocialwrap{
     width: 100%;
-    max-height: 999999px;
+  
     text-size-adjust: none;
 }
 
@@ -21,7 +21,8 @@ html * {max-height:1000000px;}
 #droittitle{
     text-size-adjust: none;
     font-size: 60px;
-    max-height: 999999px;
+   
+    padding-top: 60px;
    
     
 }
@@ -30,7 +31,7 @@ html * {max-height:1000000px;}
 
  .socialfirstpara{
     text-size-adjust: none;
-    max-height: 999999px;
+    
     line-height: 50px;
     width:800px;
     font-size: 40px;
@@ -56,6 +57,7 @@ html * {max-height:1000000px;}
 
 #socialparatwo{
     width: 90%;
+    margin-left: -30px;
     font-size: 40px;
 }
 
@@ -90,7 +92,7 @@ html * {max-height:1000000px;}
 
 
 #droitimmowrap h1{
-    
+    padding-top: 60px;
      text-size-adjust: none;
     font-size: 60px;
 }
@@ -123,6 +125,7 @@ html * {max-height:1000000px;}
 /* droit societes */
 
 #droitsocieteright h1{
+    margin-left: -25px;
     padding-left: 60px;
     font-family: mySecFont;
     font-size: 60px;
@@ -151,7 +154,7 @@ html * {max-height:1000000px;}
 /* droit fiscal */
 
 #droitfisc{
-   
+    padding-top: 60px;
     font-size: 60px;
     
 }
@@ -172,6 +175,10 @@ html * {max-height:1000000px;}
     line-height: 50px;
 }
 
+#fiscone li{
+   margin-left: -30px;
+}
+
 
 #fiscparatwo{
     font-size: 40px;
@@ -188,6 +195,7 @@ html * {max-height:1000000px;}
 
 
 #propricomleft p{
+    width: 90%;
     line-height: 50px;
     font-size: 40px;
     
@@ -196,6 +204,7 @@ html * {max-height:1000000px;}
 #propricomleft ul{
     line-height: 50px;
     font-size: 40px;
+    width: 90%;
 }
 
  } 

@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@200&display=swap');
 
+html,body{
+  overflow-x: hidden;
+}
+
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+  }
+
+
 @font-face {
     font-family: myFirstFont;
     src: url(Merriweather-Black.ttf);
@@ -28,7 +40,7 @@
     font-family: mySecFont;
     float: left;
 
-width: 46%;
+width: 45.5%;
     padding-top: 3px;
   padding-left: 4%; 
     background-color: #57594B;

@@ -69,6 +69,15 @@
 
 }
 
+
+.drapeaufrance{
+    margin-left: 87%;
+    margin-top: 20px;
+    height: 90px;
+    width: 110px;
+
+}
+
 #menutitles2 a{
     font-size: 70px;
     padding-bottom: 150px;
@@ -87,6 +96,9 @@
 }
 
 
+#linespace{
+    margin-top: -6px;
+}
 
 
 

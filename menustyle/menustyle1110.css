@@ -30,6 +30,12 @@ min-width: 15px; */
 
 }
 
+.drapeaufrance{
+    margin-left: 96%;
+    margin-top: 20px;
+
+}
+
 
 
     #button{
@@ -84,6 +90,8 @@ min-width: 15px; */
         color:#FFAA46;
       }
 
-
+#linespace{
+    margin-top: -10px;
+}
 
 }

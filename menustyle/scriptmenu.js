@@ -98,7 +98,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
             var toggled2= document.getElementById("line");
             toggled2.style.border="1px solid #FFFFFF";
             toggled2.style.transform="rotate(45deg)"; 
-            toggled2.style.marginTop ="40px";
+            toggled2.style.marginTop ="47px";
             toggled2.style.transitionDuration = "0.8s";
     
             var toggled3= document.getElementById("line2");

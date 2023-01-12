@@ -31,7 +31,7 @@ include "menu.php";
 
 <!-- <div id="firstwrap"> -->
 
-<img src="images/mainphotohome.jpeg" alt ="photo1" class="mainphotohome1" > 
+<img src="images/mainphotohome2.jpg" alt ="photo1" class="mainphotohome1" > 
 
 
 
