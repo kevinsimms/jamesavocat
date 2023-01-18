@@ -160,7 +160,8 @@ include "menu.php";
 
 
 <div id="droitcomright" class="crop-container4">
-<!-- <img src="images/dossier.jpg" alt="dossier" id="dossierpic"> -->
+
+ <img src="images/jamesavocatsexper1.jpg" alt="dossier" id="dossierpic">
 </div>
 
 </div>
@@ -254,8 +255,8 @@ include "menu.php";
 
 
 <div id="droitcomright3" class="crop-container1">
-<!-- <img src="images/buildingcrop.jpg" alt="dossier" id="buildingpic">
- --></div>
+ <img src="images/jamesavocatsexper2.jpg" alt="dossier" id="buildingpic">
+ </div>
 
 
 
@@ -429,8 +430,8 @@ include "menu.php";
 
 
  <div id="droitcomright2" class="crop-container">
-<!-- <img src="images/girrafecrop.jpg" alt="dossier" id="dossierpic">
- --></div>
+ <img src="images/jamesavocatsexper3.jpg" alt="dossier" id="pic3">
+ </div>
 
 </div> 
 

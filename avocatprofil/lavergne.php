@@ -1,12 +1,12 @@
 <div class="profilbigwrap2">
 
 
-<h2 id="titreavocat2" class="profilname">Anne-Laure LAVERGNE</h2>
 
 <div class="profilwrap">
 
 <img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
+<h2 id="titreavocat2" class="profilname2">Anne-Laure LAVERGNE</h2>
 
 <div class="imagewrap">
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocatgrand" >
@@ -20,6 +20,8 @@
 
 
 <div class="textwrap">
+
+<h2 id="titreavocat2" class="profilname">Anne-Laure LAVERGNE</h2>
     <p>Anne-Laure est l’un des Associés fondateurs de JAMES AVOCATS.</p>
 <p>Avocat au Barreau de Paris depuis 2011, Anne-Laure a développé une expertise et un savoir-faire spécifiques dans les domaines relevant du droit immobilier, droit des contrats et droit social. </p>
     <p>Présentant une double compétence en droit des affaires et en économie, elle conseille quotidiennement depuis plus de 10 ans les entreprises, associations, fondations, institutions ainsi que leurs dirigeants, dans la gestion de leurs projets et leur stratégie, en s’efforçant de proposer des solutions innovantes et pragmatiques.</p>

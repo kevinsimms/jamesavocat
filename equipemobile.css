@@ -6,12 +6,14 @@
 }
 
 #poster1 h5{
+   font-weight: 350;
     font-size: 37px;
     margin-top: -25px;
      }
 
 
 .firstname{
+   font-weight: 350;
     font-size: 37px;
     margin-top: 0px;
     
@@ -19,6 +21,7 @@
 
 
      .surname{
+      font-weight: 350;
         font-size: 37px;
         margin-top: -35px;
      }

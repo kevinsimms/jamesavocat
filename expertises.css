@@ -151,18 +151,21 @@
    /*  margin-top: 30px;
     margin-bottom: 30px; */
 
-    display: grid;
-    grid-template-columns: 65% 35%;
+   /*  display: grid;
+    grid-template-columns: 65% 35%; */
     text-align: justify;
-    
+  
+    margin-bottom: -20px;
 }
 
 
 #droitcomleft{
+    float: left;
+   
     padding-top: 20px;
     padding-bottom: 15px;
-    padding-left: 13%;
-    width: 75%;
+     padding-left: 8.5%; 
+     width: 60%; 
     background-color: white;
 }
 
@@ -195,16 +198,14 @@
 }
 
 #droitcomright{
-    background-color: #d6d7d6;
-    height: 126%;
-    margin-bottom: 0%;
-    margin-top: -80px;
+    
+    height: 400px;
     z-index: -10;
 }
 
 #dossierpic{
-     width: 500px; 
-     height: 120%;
+   
+     height: 400px;
  float: right;
     
    
@@ -223,6 +224,7 @@
 }
 
 #droitimmowrap{
+    clear: left;
     padding-left: 8.5%;
     background-color: #57594B;
     min-height: 453px;
@@ -278,13 +280,12 @@ fifth part */
     width: 450px; 
 
    height: 110%;
+   margin-top: -10px;
    
 }
 
 #droitcomright3{
-    background-color: #d6d7d6;
-    height: 120%;
-    margin-top: -15px;
+   
     z-index: -10;
 }
 
@@ -380,28 +381,31 @@ margin-left: 10px;
      padding-top: 35px;
     /*  margin-bottom: 30px; */
      text-align: left;
-     display: grid;
-     grid-template-columns: 65% 35%;
+    /*  display: grid;
+     grid-template-columns: 65% 35%; */
     
  }
 
 
  #propricomleft{
+    float:left;
     padding-top: 20px;
     padding-bottom: 35px;
-    padding-left: 13%;
-    width: 80%;
+    padding-left: 8.7%;
+    width: 42%;
     background-color: white;
+   
  }
 
 
  #propricomleft h1{
+   
     font-size: 30px;
     font-family: mySecFont;
 }
 
 #propricomleft p{
-   width: 90%;
+ 
     font-size: 17px;
     font-weight: 200;
     line-height: 23px;
@@ -409,18 +413,27 @@ margin-left: 10px;
 }
 
 #propricomleft ul{
-    width: 90%;
+   
     font-size: 17px;
     font-weight: 200;
     line-height: 23px;
     font-family: mySecFont;
-    margin-left: -3.5%;
+    margin-left: -6%;
 }
 
 #droitcomright2{
-    background-color: #d6d7d6;
-    height: 110%;
-    margin-top: -5px;
+  
+   float: right;
+}
+
+#pic3{
+    margin-top: -6px;
+   
+    height: 1030px;
+    width: 630px;
+float: right;
+   
+  
 }
 
 
@@ -441,7 +454,7 @@ margin-left: 10px;
 
      #droitcomleft{
         
-        margin-left: -4.5%;
+       /*  margin-left: -4.5%; */
         width: 91.5%;
         background-color: white;
     }
@@ -457,6 +470,7 @@ margin-left: 10px;
       width: 80%;
     }
      #droitcomright{
+        display: none;
         height: 150%;
         margin-bottom: 0%;
         margin-top: -25%;
@@ -464,6 +478,7 @@ margin-left: 10px;
     }
 
      #dossierpic{
+        display: none;
         width: 100%; 
         height: 120%;
 
@@ -501,11 +516,12 @@ margin-left: 10px;
 
      #droitsocietewrap{
         grid-template-columns: 100%;
+        margin-top: -25%;
      }
 
 
      #droitsocieteright{
-        margin-top: -0%;
+      
         margin-left: 5%;
      }
 
@@ -586,7 +602,11 @@ margin-left: 10px;
 
 #propricomleft{
     width: 86.5%;
-    margin-left: -4%;
+    /* margin-left: -4%; */
+}
+
+#propricomleft ul{
+margin-left: -3.2%;
 }
 
 #gifpic{

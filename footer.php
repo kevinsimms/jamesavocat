@@ -1,3 +1,7 @@
+<meta name="format-detection" content="telephone=no">
+
+
+
 <div id="footerwrap">
 
 

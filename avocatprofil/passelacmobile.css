@@ -29,10 +29,17 @@
       }
 
       .profilname{
+        display: none;
         padding-left: 22%;
         font-size: 50px;
     }
 
+    .profilname2{
+      display: block;
+      font-family: mySecFont;
+     text-align: center;
+      font-size: 50px;
+  }
 
     .profilwrap{
         
@@ -73,6 +80,10 @@
   }
 
   .photolinkdin{
+    float: left;
+    top: 0px;
+    right: 0px;
+    left: -22px;
    height: 100px;
    
 }

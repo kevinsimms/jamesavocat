@@ -1,11 +1,13 @@
 <div class="profilbigwrap5">
 
 
-<h2 id="titreavocat5" class="profilname">Malika CUSSET</h2>
+
 
 <div class="profilwrap">
 
 <img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
+
+<h2 id="titreavocat5" class="profilname2">Malika CUSSET</h2>
 
 <div class="imagewrap">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocatgrand" >
@@ -19,6 +21,7 @@
 
 
 <div class="textwrap">
+<h2 id="titreavocat5" class="profilname">Malika CUSSET</h2>
     <p>Trained at the ENADEP, (National School of Law and Procedure for legal personnel) for the professional training of personnel of law firms and the legal and judicial professions, Malika obtained the title of Legal Secretary in 2018, then the diploma of Legal Assistant in 2021.
 </p>
 <p>Malika specializes in Corporate Law and assists the members of the firm in supporting the legal secretariats of the companies.

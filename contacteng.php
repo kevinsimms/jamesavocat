@@ -2,6 +2,10 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+
+  <meta name="format-detection" content="telephone=no">
+
+
 <title>James Avocats cabinet</title>
 
  <link rel="stylesheet" href="menustyle/menustyle.css">

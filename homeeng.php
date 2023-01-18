@@ -49,7 +49,7 @@ include "menueng.php";
  <div id="secondpart">
 <div id="secondpartinner">
   <h2>Who are we ?</h2>
- <p> After 10 years of working as a team in the same firm, Anne Charlotte Passelac, Anne-Laure Lavergne and Elodie Pinet created
+ <p> After 10 years of working as a team in the same firm, Anne-Charlotte Passelac, Anne-Laure Lavergne and Elodie Pinet created
   <b>JAMES AVOCATS</b>
   in 2022, a firm that embodies their resolutely modern vision of the legal profession and conveys their shared values.</p>
  
@@ -115,7 +115,7 @@ include "menueng.php";
 
 <div id="poster1" class="poster1reveal">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Anne Charlotte</h4><h4 class="surname"> PASSELAC</h4>
+<h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
 <h5>Partner</h5>
 </div>
 

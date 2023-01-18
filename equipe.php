@@ -47,7 +47,7 @@ include "menu.php";
 <div id="poster1" class="poster1reveal" onclick="Passelac()">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
     <div id=name1>
-<h4 class="firstname">Anne Charlotte</h4><h4 class="surname"> PASSELAC</h4>
+<h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
    
 <h5>Avocat associée</h5>
 </div>

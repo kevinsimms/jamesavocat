@@ -1,12 +1,14 @@
 <div class="profilbigwrap2">
 
 
-<h2 id="titreavocat2" class="profilname">Anne-Laure LAVERGNE</h2>
+
 
 <div class="profilwrap">
 
 <img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
+
+<h2 id="titreavocat2" class="profilname2">Anne-Laure LAVERGNE</h2>
 
 <div class="imagewrap">
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocatgrand" >
@@ -20,6 +22,7 @@
 
 
 <div class="textwrap">
+<h2 id="titreavocat2" class="profilname">Anne-Laure LAVERGNE</h2>
     <p>Anne-Laure is one of the founding partners of JAMES AVOCATS.
 </p>
 <p>Admitted to the Paris Bar in 2011, Anne-Laure has developed specific expertise and know-how in the fields of real estate law, contract law and employment law.  </p>

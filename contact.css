@@ -19,7 +19,7 @@
 #wrap2{
 
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49.3% 50%;
     height: 300px;
     margin-top:5px;
     margin-bottom:400px ;

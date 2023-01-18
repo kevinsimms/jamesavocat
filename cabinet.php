@@ -41,7 +41,7 @@ include "menu.php";
 
 <div id="leftside1">
 <p> <b>Après 10 ans de travail en équipe</b> au sein d’un même Cabinet, 
-Anne Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
+Anne-Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
 en 2022 JAMES AVOCATS, cabinet qui incarne leur vision résolument <b>moderne</b> de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
  
 <p><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.</p>

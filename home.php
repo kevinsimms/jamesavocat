@@ -2,6 +2,9 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+
+
+
 <title>James Avocats Accueil</title>
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
@@ -48,9 +51,9 @@ include "menu.php";
 
  <div id="secondpart">
 <div id="secondpartinner">
-  <h2> Qui sommes-nous ?</h2>
+  <h2> Qui sommes-nous<span style="color: white">_</span>?</h2>
  <p> Après 10 ans de travail en équipe au sein d’un même Cabinet, 
-Anne Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
+Anne-Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
 en 2022 <b>JAMES AVOCATS</b>, cabinet qui incarne leur vision résolument moderne de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
  
 <p class="apres"><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.
@@ -115,7 +118,7 @@ Véritable Business Partner, JAMES AVOCATS les accompagne dans la durée et leur
 
 <div id="poster1" class="poster1reveal">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Anne Charlotte</h4><h4 class="surname"> PASSELAC</h4>
+<h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
 <h5>Avocat associée</h5>
 </div>
 

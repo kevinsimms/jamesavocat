@@ -175,6 +175,7 @@ padding-top: 10px;
 }
 
 #secondpartinner h2{
+   text-align: left;
   font-family: mySecFont;
     font-size: 40px;
     width: 105%;
@@ -626,7 +627,7 @@ transition-property: transform;
  #poster1 h5{
     font-weight: 100;
     text-align: center;
-        width: 200px;
+        width: 220px;
         margin-top: -15px;
      }
 
@@ -635,7 +636,7 @@ transition-property: transform;
     font-weight: 100;
     margin-top: 10px;
     text-align: center;
-        width: 200px;
+        width: 220px;
     
 }
 
@@ -644,7 +645,7 @@ transition-property: transform;
         font-weight: 100;
         margin-top: -20px;
         text-align: center;
-        width: 200px;
+        width: 220px;
      }
 
 

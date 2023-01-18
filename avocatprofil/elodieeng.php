@@ -1,12 +1,13 @@
 <div class="profilbigwrap3">
 
 
-<h2 id="titreavocat3" class="profilname">Elodie PINET</h2>
+
 
 <div class="profilwrap">
 
 <img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
+<h2 id="titreavocat3" class="profilname2">Elodie PINET</h2>
 
 <div class="imagewrap">
 <img src="images/pinet.jpeg" alt ="photo1" class="photoavocatgrand" >
@@ -19,6 +20,7 @@
 
 
 <div class="textwrap">
+<h2 id="titreavocat3" class="profilname">Elodie PINET</h2>
     <p>A member of the Paris Bar since 2017, Elodie advises business owners and individuals on issues mainly related to corporate law by offering them the relevant support for their partnership projects, their external growth and/or internal reorganization operations, as well as on all their issues of governance.  She also assists them in tax matters.
 </p>
 <p>Elodie works with French and international clients, and her experience in the New York office of an American business law firm allows her to understand the issues related to the cross-border transactions in which she is involved.  
