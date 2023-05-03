@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-<title>James Avocats equipe</title>
+<title>James Avocats team</title>
 
 <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
@@ -101,6 +101,28 @@ include "menueng.php";
 
 
 
+<div id="poster1" class="poster1reveal4" onclick="vallade()">
+<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
+<div id=name6>
+<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
+
+<h5>Legal assistant</h5>
+</div>
+</div>
+
+
+
+<div id="poster1" class="poster1reveal4" onclick="abdelmoumene()">
+<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
+<div id=name7>
+<h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
+
+<h5>Legal assistant</h5>
+</div>
+</div>
+
+
+
 
 </div>
 
@@ -122,6 +144,8 @@ include "avocatprofil/passelaceng.php";
  include "avocatprofil/elodieeng.php";
  include "avocatprofil/meryeng.php";
  include "avocatprofil/cusseteng.php";
+ include "avocatprofil/valladeeng.php";
+ include "avocatprofil/abdelmoumeneeng.php";
 
 ?>
 

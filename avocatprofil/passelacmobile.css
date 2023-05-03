@@ -28,6 +28,17 @@
                
       }
 
+      .profilbigwrap6{
+        margin-top: 400px;
+          
+               
+      }
+      .profilbigwrap7{
+        margin-top: 400px;
+          
+               
+      }
+
       .profilname{
         display: none;
         padding-left: 22%;
@@ -35,10 +46,15 @@
     }
 
     .profilname2{
+   
       display: block;
       font-family: mySecFont;
+      font-weight: 100;
      text-align: center;
       font-size: 50px;
+      opacity: 1;
+margin-top: 0px;
+position: relative;
   }
 
     .profilwrap{

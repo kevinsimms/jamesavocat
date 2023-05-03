@@ -14,7 +14,7 @@
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocatgrand" >
 
 <h2 class="mail"> <a href="mailto:al.lavergne@james-avocats.fr">al.lavergne@james-avocats.fr</a></h2>
-<a href="https://www.linkedin.com/in/anne-laure-lavergne-28962b91/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+<a href="https://www.linkedin.com/in/anne-laure-lavergne-28962b91/" target="_blank"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
 
 </div>
 

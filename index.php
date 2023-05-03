@@ -2,7 +2,15 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-<title>James Avocats Paris homepage</title>
+
+
+
+<title>James Avocats cabinet basé à Paris - Accueil</title>
+
+<meta name="description" content="James Avocats cabinet basé à Paris, partenaires des entrepreneurs et des entreprises" />
+
+<link rel="canonical" href="https://www.james-avocats.fr/">
+
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
 
@@ -19,9 +27,9 @@
 
 
 <?php
-$link='https://www.james-avocats.fr';
+$link='homeeng.php';
 
-include "menueng.php"; 
+include "menu.php"; 
 ?>
 
 
@@ -37,7 +45,7 @@ include "menueng.php";
 
 
 <div id="ftitlewrap">
-<h2 id="firsttitle">James Avocats partners to entrepreneurs and companies</h2>
+<h1 id="firsttitle">James Avocats partenaires des entrepreneurs et des entreprises</h1>
 </div>
 
 <!-- </div> -->
@@ -48,13 +56,13 @@ include "menueng.php";
 
  <div id="secondpart">
 <div id="secondpartinner">
-  <h2>Who are we ?</h2>
- <p> After 10 years of working as a team in the same firm, Anne-Charlotte Passelac, Anne-Laure Lavergne and Elodie Pinet created
-  <b>JAMES AVOCATS</b>
-  in 2022, a firm that embodies their resolutely modern vision of the legal profession and conveys their shared values.</p>
+  <h2> Qui sommes-nous<span style="color: white">_</span>?</h2>
+ <p> Après 10 ans de travail en équipe au sein d’un même Cabinet, 
+Anne-Charlotte Passelac, Anne-Laure Lavergne et Elodie Pinet créent 
+en 2022 <b>JAMES AVOCATS</b>, cabinet qui incarne leur vision résolument moderne de la profession d’avocats et véhicule les valeurs qu’elles partagent.</p>
  
-<p class="apres"><b>Availability, accessibility, creativity and transparency</b>  are at the heart of the team's relationship with its clients. As a true business partner, <b>JAMES AVOCATS</b> supports its clients over the long term and provides them with
- <b> tailored, effective, pragmatic and innovative answers and solutions on a daily basis</b>, on all the issues that are central to business life.</p>
+<p class="apres"><b>Disponibilité, accessibilité, créativité et transparence</b> sont au cœur de la relation qu’entretient l’équipe avec ses clients.
+Véritable Business Partner, <b>JAMES AVOCATS</b> les accompagne dans la durée et leur apporte au quotidien réponses et <b>solutions sur mesure, efficaces, pragmatiques et innovantes</b>, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
 
 </div>
 
@@ -103,8 +111,8 @@ include "menueng.php";
 <div id="thirdpartbis">
 
 <div id="titleoffourth">
-<h4>The team </h4>
-<p>Dedicated to entrepreneurs and companies, JAMES AVOCATS is composed of a passionate, united, multidisciplinary, complementary and reactive team.</p>
+<h4>L’équipe </h4>
+<p>Dédié aux entrepreneurs et aux entreprises, JAMES AVOCATS est composé d'une équipe passionnée, unie, pluridisciplinaire, complémentaire et réactive.</p>
 </div>
 
 
@@ -116,7 +124,7 @@ include "menueng.php";
 <div id="poster1" class="poster1reveal">
 <img src="images/passelac.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Anne-Charlotte</h4><h4 class="surname"> PASSELAC</h4>
-<h5>Partner</h5>
+<h5>Avocat associée</h5>
 </div>
 
 
@@ -124,7 +132,7 @@ include "menueng.php";
 <div id="poster1" class="poster1reveal2" >
 <img src="images/lavergne.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Anne-Laure</h4><h4 class="surname"> LAVERGNE</h4>
-<h5>Partner</h5>
+<h5>Avocat associée</h5>
 </div>
 
 
@@ -132,7 +140,7 @@ include "menueng.php";
 <div id="poster1"  class="poster1reveal3">
 <img src="images/pinet.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Elodie</h4><h4 class="surname"> PINET</h4>
-<h5>Partner</h5>
+<h5>Avocat associée</h5>
 </div>
 
 
@@ -140,7 +148,7 @@ include "menueng.php";
 <div id="poster1" class="poster1reveal4">
 <img src="images/mery.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Antoine</h4><h4 class="surname"> MERY</h4>
-<h5>Associate</h5>
+<h5>Avocat collaborateur</h5>
 </div>
 
 
@@ -149,8 +157,9 @@ include "menueng.php";
 <div id="poster1" class="poster1reveal5">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
-<h5>Legal assistant</h5>
+<h5>Assistante juridique</h5>
 </div>
+
 
 
 
@@ -167,8 +176,6 @@ include "menueng.php";
 <h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
 <h5>Assistante juridique</h5>
 </div>
-
-
 
 
 
@@ -203,11 +210,14 @@ include "menueng.php";
 
 
 <div id="maispasquetitle">  
-  <h2 class="h2maispasque">Lawyers. <span class="pasque">But not only that.</span></h2>
+  <h2 class="h2maispasque">Avocats. <span class="pasque">Mais pas que.</span></h2>
 
-  <p class="pmaispasque">As a true partner, JAMES AVOCATS supports its clients over the long term and provides them with tailored, effective, pragmatic and innovative answers and solutions on a daily basis on all the issues that are central to business life.
-</p>
+  <p class="pmaispasque">Véritable partenaire, JAMES AVOCATS accompagne ses clients dans la durée et leur apporte au quotidien réponses et solutions sur mesure, efficaces, pragmatiques et innovantes, sur l’ensemble des thématiques qui sont au centre de la vie des affaires.</p>
 </div>
+
+
+
+
 
 
 
@@ -222,39 +232,30 @@ include "menueng.php";
 
 <div id="wrapsquares">
 
-<div id="firstwindow">  <div class="etiquettemaispasque"> EMPLOYMENT LAW</div> <img src="images/maispasquebis1.jpeg" alt ="photo1" class="photomaispasque1" > </div>
-<div id="secondwindow">  <div class="etiquettemaispasque"> COMMERCIAL LAW</div> <img src="images/maispasquebis2.jpeg" alt ="photo1" class="photomaispasque1" > </div>
-<div id="thirdwindow">  <div class="etiquettemaispasque"> REAL ESTATE LAW</div> <img src="images/maispasquebis3.jpeg" alt ="photo1" class="photomaispasque1"  > </div>
+<div id="firstwindow">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> <img src="images/maispasquebis1.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="secondwindow">  <div class="etiquettemaispasque"> DROIT COMMERCIAL</div> <img src="images/maispasquebis2.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="thirdwindow">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div> <img src="images/maispasquebis3.jpeg" alt ="photo1" class="photomaispasque1"  > </div>
 
 
 </div>
 
+<br>
 
-<br>
-<br>
 
 
 <div id="wrapsquares">
 
 
-<div id="fourthwindow">  <div class="etiquettemaispasque"> CORPORATE LAW</div> <img src="images/maispasquebis4.jpeg" alt ="photo1" class="photomaispasque1" > </div>
-<div id="fifthwindow">  <div class="etiquettemaispasque">TAX LAW</div> <img src="images/maispasquebis5.jpeg" alt ="photo1" class="photomaispasque1" > </div>
-<div id="sixthwindow">  <div class="etiquettemaispasque2"> INTELLECTUAL <br id="split">PROPERTY</div> <img src="images/maispasquebis6.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="fourthwindow">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> <img src="images/maispasquebis4.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="fifthwindow">  <div class="etiquettemaispasque"> DROIT FISCAL</div> <img src="images/maispasquebis5.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="sixthwindow">  <div class="etiquettemaispasque2"> PROPRIÉTÉ <br id="split">INTELLECTUELLE</div> <img src="images/maispasquebis6.jpeg" alt ="photo1" class="photomaispasque1" > </div>
 
 
 </div>
 
 <br>
+<br>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -262,10 +263,10 @@ include "menueng.php";
 
 
 <?php
- include "footereng.php"; 
+ include "footer.php"; 
 ?>
 
-<script src="scrolltoeng.js"></script>
+<script src="scrollto.js"></script>
 
 <script src="menustyle/scriptmenu.js"></script>
 

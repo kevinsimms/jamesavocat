@@ -12,7 +12,7 @@
 <div class="imagewrap">
 <img src="images/mery.jpeg" alt ="photo1" class="photoavocatgrand" >
 <h2 class="mail"> <a href="mailto:a.mery@james-avocats.fr">a.mery@james-avocats.fr</a></h2>
-<a href="https://www.linkedin.com/in/antoine-mery/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+<a href="https://www.linkedin.com/in/antoine-mery/" target="_blank"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
 
 </div>
 

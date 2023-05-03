@@ -12,7 +12,7 @@
 <div class="imagewrap">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocatgrand" >
 <h2 class="mail"> <a href="mailto:m.cusset@james-avocats.fr">m.cusset@james-avocats.fr</a></h2>
-<a href="https://www.linkedin.com/in/malika-cusset-5a4447132/"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
+<a href="https://www.linkedin.com/in/malika-cusset-5a4447132/" target="_blank"> <img src="images/LinkedIn-Symbole.png" alt ="linkdin" class="photolinkdin" height="50"></a>
 
 
 </div>

@@ -2,7 +2,7 @@
 
 <div id="wrap">
 
-<a href="homeeng.php"><img src="images/jamesavocatslogo.jpeg" alt ="logo1" class="logo1" > </a>
+<a href="homeeng.php"><!-- <h2><span class="logo1">JAMES</span><span class="logo2">AVOCATS</span></h2> --> <img src="images/jamesavocatslogo.png" alt ="logo1" class="logo1" > </a>
 <a href=<?php echo $link ?>><img src="images/drapeaufrance.png" alt ="drapeaufr" class="drapeaufrance">  </a>
 
 
@@ -38,11 +38,11 @@
     <div id="togglemenu">
     <ul id="menutitles2">
 
-<li > <a href="cabinet.php">THE FIRM</a>   </li>
-<li> <a href="equipe.php">THE TEAM</a> </li>
-<li> <a href="expertises.php">OUR EXPERTISE</a></li>
+<li id="firm"> <a href="cabineteng.php">THE FIRM</a>   </li>
+<li> <a href="equipeeng.php">THE TEAM</a> </li>
+<li> <a href="expertiseseng.php">OUR EXPERTISE</a></li>
 <li> <a href="">NEWS</a></li>
-<li><a href="contact.php">CONTACT</a></li>
+<li><a href="contacteng.php">CONTACT</a></li>
 
 
 </ul>

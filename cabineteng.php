@@ -7,7 +7,7 @@
 
 
   
-<title>James Avocats cabinet</title>
+<title>James Avocats firm</title>
 
 
 

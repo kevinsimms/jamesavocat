@@ -1,6 +1,7 @@
 @font-face {
   font-family: mySecFont;
   src: url(HelveticaNeueLight.ttf);
+  src: url(HelveticaNeueBold.ttf); 
   font-weight: 100;
 }
 
@@ -42,7 +43,7 @@ html,body{
 
  @keyframes zoompic {
     from {transform:scaleY(1.1)}
-    to {transform:scaleY(1.3)}
+    to {transform:scaleY(1.2)}
   } 
   
 
@@ -510,7 +511,7 @@ transition-property: transform;
  .poster1reveal5{
     
     opacity: 0;
-    transition: 2s all ease;
+    transition: 10s all ease;
  }
 
  .poster1reveal5.active{
@@ -518,12 +519,34 @@ transition-property: transform;
    
  } 
 
+ .poster1reveal6{
+    
+   opacity: 0;
+   transition: 10s all ease;
+}
+
+.poster1reveal6.active{
+   opacity: 1;
+  
+} 
+
+.poster1reveal7{
+    
+   opacity: 0;
+   transition: 10s all ease;
+}
+
+.poster1reveal7.active{
+   opacity: 1;
+  
+} 
+
 
 #thirdpartbis{
     margin-top: -450px;
     position: relative;
     background-color: white;
-    margin-bottom: -500px;
+    margin-bottom: -400px;
     height: 1100px; 
    
     width: 100%;
@@ -579,16 +602,17 @@ transition-property: transform;
      
         height:400px;
         
-     bottom:0px;
+    
        margin-top: 30px;
+       
         top: 00px;
         position: relative;
          display: grid;
-        grid-template-columns:  200px 200px 200px 200px 200px;
+        grid-template-columns:  200px 200px 200px 200px 200px 200px 200px;
       grid-gap: 50px; 
        margin-left: auto;
       margin-right: auto;
-      width: 1220px;
+      width: 1720px;
       
      /*  padding-left: 6%; */
 
@@ -661,7 +685,7 @@ transition-property: transform;
    #avocatmaispasque{
     
     width: 100%;
-    
+   
     top: 0px;
     clear: left;
     position: relative;
@@ -681,8 +705,10 @@ width: 120%;
    #maispasquetitle p{
     font-family: mySecFont;
     padding-left: 8%;
-    width: 110%;
+    width: 130%;
     font-size: 17px;
+   
+    z-index: 200;
    }
    
    .h2maispasque{
@@ -698,9 +724,10 @@ width: 120%;
 
 
  .pmaispasque{
-    
+  
     opacity: 0;
     transition: 6s all ease;
+   
  }
 
  .pmaispasque.active{
@@ -722,239 +749,264 @@ width: 120%;
 
 
    #maispasquetitle{
-   
+   height: 40%;
     color: white;
     padding-top: 40px;
     margin-left: 5%;
     width: 35%;
-    z-index: 20;
+    z-index: 110;
     display: block;
+    padding-bottom: 30px;
     
    }
 
 
-   .photomaispasque{
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 0px;
-    padding-bottom: 60px;
-   }
 
 
-   .photomaispasque1{
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 30px;
-    padding-bottom: 60px;
-   }
+#bigwrappersquares{
+
+   background-color: #57594B;
+   margin-top: -10px;
+   margin-bottom: 00px;
+ }
+
+
+
+
+
+ #wrapsquares{
+   margin-left: 6%;
+   
+       display: grid;
+       grid-template-columns: 30% 30% 30%;
+       grid-gap: 3%;
+      }
+
+      #firstwindow{
+        
+         overflow: hidden;
+         width: 92.2%;
+         height:97%;
+       }
+       #secondwindow{
+         overflow: hidden;
+         width: 92.5%;
+         height:97%;
+       }
+     
+       #thirdwindow{
+         overflow: hidden;
+         width: 92.5%;
+         height:97%;
+       }
+
+       #fourthwindow{
+         background-color: #57594B;
+         height: 93%;
+         overflow: hidden;
+         width: 92.5%;
+         
+       }
+     
+       #fifthwindow{
+         overflow: hidden;
+         width: 92.5%;
+         height:97%;
+       }
+
+       #sixthwindow{
+         overflow: hidden;
+         width: 92.5%;
+         height:94%;
+       }
+   
+      .etiquettemaispasque{
+      position: relative;
+      margin-top: 0px;
+      width: 100%;
+      display: block;
+       
+        background-color: black;
+    color:white;
+    font-family: mySecFont;
+       font-weight: 600;
+       font-size: 17px;
+        height: 35px;
+     
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: -5px;
+        padding-right: 10px;
+        z-index: 10;
+      
+       
+       }
+   
+   
+   
+   
+       .etiquettemaispasque2{
+         position: relative;
+         margin-top: 0px;
+         width: 100%;
+         display: block;
+          
+           background-color: black;
+       color:white;
+       font-family: mySecFont;
+          font-weight: 600;
+          font-size: 17px;
+           height: 35px;
+        
+           padding-left: 25px;
+           padding-top: 15px;
+           padding-bottom: -5px;
+           padding-right: 10px;
+           z-index: 10;
+         
+          
+          }
+   
+      .photomaispasque1{
+       display: block;
+       width: 99.8%;
+       z-index: 0;
+      }
+   
+   
+     
+   
+      .photomaispasque1:hover{
+       transform: scale(1.08);
+   
+       transition-duration: 500ms;
+   transition-property: transform;
+   z-index: -1;
+      }
+   
+      #verticalbar0{
+       z-index: 0;
+       top:7.1vw;
+        left:0%;
+        position: absolute;
+        width:6.8%;
+        height: 90%;
+        background-color: #57594B;
+        z-index: 10;
+    
+       } 
+
+      
+   
+    #verticalbar1{
+    
+     top:7.1vw;
+     left:30.8%;
+     position: absolute;
+     width:6.2%;
+     height: 90%;
+     background-color: #57594B;
+     z-index: 10;
+    
+   
+    } 
+   
+    #verticalbar2{
+    
+      top:7.1vw;
+     left:62%;
+     position: absolute;
+     width:6%;
+     height: 90%;
+     background-color: #57594B;
+     z-index: 10;
+   
+    } 
+   
+    #verticalbar3{
+   
+      top:7.1vw;
+     left:91.8%;
+     position: absolute;
+     width:4%;
+     height: 90%;
+     background-color: #57594B;
+     z-index: 10;
+     
+     
+   
+    } 
+   
+   
+    #horizontal{
+      
+     
+    margin-top: -1%;
+     position: relative;
+       width:96%;
+       height: 50px;
+       background-color: #57594B;
+       
+   
+      } 
+   
+      #horizontal2{
+      
+     
+       margin-top: -3%;
+        position: relative;
+          width:96%;
+          height: 50px;
+          background-color: #57594B;
+          
+      
+         }
+
+         #split{
+            display: none;
+         }
+
+
+
+         @media (max-width: 1700px){
+
+
+
+    #posterensemble{
+       
+     
+      height:400px;
+      
+  
+     margin-top: 30px;
+     
+      top: 00px;
+      position: relative;
+       display: grid;
+      grid-template-columns:  200px 200px 200px 200px 200px;
+    grid-gap: 50px; 
+     margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    
+
+
+
 
   
+    
+  }
 
 
-   #windowswrap{
-    position: relative;
-    border:0px solid green;
-   }
-
-
-#secondwindowline{
-    /* border:2px solid green; */
-    position: relative;
-    margin-top: -20px;
-
+  #thirdpartbis{
+  
+   margin-bottom: 00px;
+ 
 }
 
 
 
-
-   #firstwindow{
-    left:5%;
-    top: 30px;
-    position: absolute;
-    width:28%;
-    height: 90%;
-    /*  background-color: red;
-    opacity: 0.2; */ 
-
-   }
-
-
-   #secondwindow{
-    left:36%;
-    top: 30px;
-    position: absolute;
-    width:29%;
-    height: 90%;
-    /*  background-color: green;
-    opacity: 0.2;  */
-
-   }
-
-   #thirdwindow{
-    left:68%;
-    top: 30px;
-    position: absolute;
-    width:29%;
-    height: 90%;
-    /* background-color: blue;
-    opacity: 0.2; */
-   }
-
-
-
-   #fourthwindow{
-    left:5%;
-   top:0px;
-    position: absolute;
-    width:28%;
-    height: 90%;
-   /*  background-color: yellow;
-    opacity: 0.2; */
-
-    
-
-   }
-
-
-   #fifthwindow{
-    left:36%;
-   
-    top:0px;
-    position: absolute;
-    width:29%;
-    height: 90%;
-  /*   background-color: pink;
-    opacity: 0.2; */
-
-   }
-
-   #sixthwindow{
-    left:67.5%;
-  
-    top:0px;
-    position: absolute;
-    width:28%;
-    height: 90%;
-   /*  background-color: brown;
-    opacity: 0.2; */
-
-   }
-
-
-   #sixth{
-    padding-left: 20px;
-   }
-
-   #sixth2{
-    padding-left: 27px;
-   }
-
-   #prop{
-    padding-left: 30px;
-   }
-
-   #immo{
-
-    opacity: 1;
-    position: absolute;
-   
-    background-color: black;
-color:white;
-font-family: mySecFont;
-   font-weight: 600;
-   font-size: 17px;
-    height: 35px;
-    width: 95%;
-    
-    padding-top: 15px;
-    padding-bottom: -5px;
-    padding-right: 10px;
-    padding-left: 20px;
-   }
-
-   #horizontalbar{
-   
-  
-    bottom:51%;
-    position: absolute;
-    width:100%;
-    height: 6%;
-    background-color: #2b2c26;
-    
-
-   } 
-
-   #verticalbar1{
-   z-index: 0;
-    top:0px;
-    left:32.3%;
-    position: absolute;
-    width:4%;
-    height: 95%;
-    background-color: #57594B;
-    
-
-   } 
-
-   #verticalbar2{
-   
-    top: 0px;
-    left:64%;
-    position: absolute;
-    width:4%;
-    height: 100%;
-    background-color: #57594B;
-    
-
-   } 
-
-   #verticalbar3{
-  
-    top: 0px;
-    left:95%;
-    position: absolute;
-    width:4%;
-    height: 150%;
-    background-color: #57594B;
-    z-index: 10;
-    
-
-   } 
-
-
-
-   .etiquettemaispasque{
-    opacity: 1;
-    position: absolute;
-   
-    background-color: black;
-color:white;
-font-family: mySecFont;
-   font-weight: 600;
-   font-size: 17px;
-    height: 35px;
-    width: 95%;
-    padding-left: 25px;
-    padding-top: 15px;
-    padding-bottom: -5px;
-    padding-right: 10px;
-   
-   }
-
-
-  
-
-
-   #verticalline4{
-    height:45px;
-    width:1px;
-    background-color: white;
-    display: block;
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 0px;
-}
-
+         }
 
 
 
@@ -1020,20 +1072,7 @@ font-family: mySecFont;
 
 
 
-    @media (max-width: 885px){
-
-      .etiquettemaispasque{
-      
-        height: 42px;
-        text-align: left;
-        margin-left: 0px;
-        
-       font-size: 12px;
-       width: 90%;
-       
-       }
-
-    }
+    
 
 
 
@@ -1089,7 +1128,7 @@ font-family: mySecFont;
         
         z-index: 10;
         color: white;
-        margin-top: -30%;
+        margin-top: -40%;
         width: 400px;
         margin-left: auto;
         margin-right: auto;
@@ -1114,32 +1153,76 @@ font-family: mySecFont;
     }
 
 
-   /*  .photoensemble{
-       
-                top: -250px;
-        
-        
-        
-        
-        
-            } */
-
-            .etiquettemaispasque{
-      
-              height: 42px;
-              text-align: left;
-              margin-left: 0px;
-              
-             font-size: 12px;
-             width: 85%;
-
-             padding-left: 13px;
-             
-             }
-
-             #sixth2{
-              padding-left: 13px;
-             }
+  
       
           }
 
+
+          
+            
+                  @media (max-width: 980px){
+            
+                     #split{
+                        display: block;
+                     }
+
+
+                    
+
+                    .etiquettemaispasque2{
+                      
+                     padding-right: 600px;
+                        padding-top: 7px;
+                        height: 45px; 
+                       
+                       }
+            
+                  }
+            
+            
+                  
+            
+            
+            
+                 
+            
+            
+             @media (max-width: 775px){
+            
+              
+            
+            
+              .etiquettemaispasque{
+             
+                  padding-left: 5px;
+                 font-size: 10px;
+                 
+                
+                 
+                 }
+            
+                 .etiquettemaispasque2{
+                  padding-top: 15px;
+                  padding-left: 5px;
+                 font-size: 10px;
+                 height: 35px;
+               
+                 
+                
+                 
+                 }
+                 #verticalbar0{
+                  width:5.9%;
+                   height: 90%;
+                  
+               
+                  } 
+              
+              
+            
+            
+                
+            
+            
+             } 
+            

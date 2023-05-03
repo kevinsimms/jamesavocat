@@ -6,7 +6,7 @@
   <meta name="format-detection" content="telephone=no">
 
 
-<title>James Avocats cabinet</title>
+<title>James Avocats contact</title>
 
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
@@ -83,6 +83,8 @@ $link='contacteng.php';
 ?>
 
  <script src="menustyle/scriptmenu.js"></script> 
+
+ <script src="menucolor/contactcolor.js"></script>
 
 
 </body>

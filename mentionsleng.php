@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-<title>Mentions legales</title>
+<title>James Avocats Legal notice</title>
  <link rel="stylesheet" href="menustyle/menustyle.css">
  <link rel="stylesheet" href="menustyle/menustyle1110.css">
  <link rel="stylesheet" href="menustyle/menumobile.css">

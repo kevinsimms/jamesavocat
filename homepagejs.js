@@ -333,6 +333,48 @@ function reveal() {
 
 
 
+
+  function reveal6() {
+    var reveals = document.querySelectorAll(".poster1reveal6");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        //reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal6);
+
+
+
+  function reveal7() {
+    var reveals = document.querySelectorAll(".poster1reveal7");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        //reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal7);
+
+
+
+
   function reveal6() {
     var reveals = document.querySelectorAll(".h2maispasque");
   

@@ -43,6 +43,24 @@ function scroll11(){
    
 
 }
+
+
+function scroll12(){
+
+    window.location.href = "equipeeng.php?avo=val";
+   
+
+}
+         
+function scroll13(){
+
+    window.location.href = "equipeeng.php?avo=abdel";
+   
+
+}
+
+
+
                     
  document.getElementById("firstwindow").addEventListener("click", scroll1);
  document.getElementById("secondwindow").addEventListener("click", scroll2);

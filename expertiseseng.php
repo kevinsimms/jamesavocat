@@ -41,38 +41,38 @@ include "menueng.php";
 ?>
 
 
-<div id="avocatmaispasque">
 
 
+<div id="bigwrappersquares">
 
+<br>
+<br>
 
-<div id="windowswrap">
+<div id="wrapsquares">
 
-<img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
-<div id="firstwindow" onclick="scroll1()">  <div class="etiquettemaispasque"> EMPLOYMENT LAW</div> </div>
-<div id="secondwindow"onclick="scroll2()"> <div class="etiquettemaispasque"> COMMERCIAL LAW</div>  </div>
-<div id="thirdwindow" onclick="scroll3()">  <div class="etiquettemaispasque" id="sixth"> REAL ESTATE LAW</div>  </div>
-
-<div id="verticalbar1"></div>
-<div id="verticalbar2"></div> 
-<div id="verticalbar3"></div> 
+<div id="firstwindow" onclick="firstwineng()">  <div class="etiquettemaispasque"> EMPLOYMENT LAW</div> <img src="images/maispasquebis1.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="secondwindow" onclick="secondwineng()">  <div class="etiquettemaispasque"> COMMERCIAL LAW</div> <img src="images/maispasquebis2.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="thirdwindow" onclick="thirdwineng()">  <div class="etiquettemaispasque"> REAL ESTATE LAW</div> <img src="images/maispasquebis3.jpeg" alt ="photo1" class="photomaispasque1"  > </div>
 
 
 </div>
 
 
-<div id="secondwindowline">
-<img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
-<div id="fourthwindow"onclick="scroll4()">  <div class="etiquettemaispasque"> CORPORATE LAW</div> </div>
-<div id="fifthwindow" onclick="scroll5()">  <div class="etiquettemaispasque"> TAX LAW</div> </div>
-<div id="sixthwindow" onclick="scroll6()">  <div class="etiquettemaispasque" id="sixth2" > INTELLECTUAL PROPERTY</div> </div>
-<div id="verticalbar1"></div>
-<div id="verticalbar2"></div> 
+<br>
+<br>
+
+
+<div id="wrapsquares">
+
+
+<div id="fourthwindow" onclick="fourthwineng()">  <div class="etiquettemaispasque"> CORPORATE LAW</div> <img src="images/maispasquebis4.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="fifthwindow" onclick="fifthwineng()">  <div class="etiquettemaispasque">TAX LAW</div> <img src="images/maispasquebis5.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="sixthwindow" onclick="sixtwineng()">  <div class="etiquettemaispasque2"> INTELLECTUAL <br id="split">PROPERTY</div> <img src="images/maispasquebis6.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+
 
 </div>
 
-
-
+<br>
 </div>
 
 
@@ -177,9 +177,8 @@ include "menueng.php";
 
 
 <div id="droitcomright" class="crop-container4">
-<!-- <img src="images/dossier.jpg" alt="dossier" id="dossierpic"> -->
-</div>
 
+ <img src="images/jamesavocatsexper1.jpg" alt="dossier" id="dossierpic">
 </div>
 
 
@@ -285,12 +284,14 @@ include "menueng.php";
 <!-- fifth part  -->
 
 
+
+
 <div id="droitsocietewrap">
 
 
 <div id="droitcomright3" class="crop-container1">
-<!-- <img src="images/buildingcrop.jpg" alt="dossier" id="buildingpic">
- --></div>
+ <img src="images/jamesavocatsexper2.jpg" alt="dossier" id="buildingpic">
+ </div>
 
 
 
@@ -496,9 +497,9 @@ include "menueng.php";
 </div>
 
 
- <div id="droitcomright2" class="crop-container">
-<!-- <img src="images/girrafecrop.jpg" alt="dossier" id="dossierpic">
- --></div>
+<div id="droitcomright2" class="crop-container">
+ <img src="images/jamesavocatsexper3.jpg" alt="dossier" id="pic3">
+ </div>
 
 </div> 
 

@@ -2,7 +2,7 @@
 
 <div id="wrap">
 
-<a href="home.php"><img src="images/jamesavocatslogo.jpeg" alt ="logo1" class="logo1" > </a>
+<a href="https://www.james-avocats.fr"><!-- <h2><span class="logo1">JAMES</span></h2><h2><span class="logo2">AVOCATS</span></h2> --> <img src="images/jamesavocatslogo.png" alt ="logo1" class="logo1" > </a>
 <a href=<?php echo $link ?>><img src="images/drapeauanglais.jpeg" alt ="drapeauuk" class="drapeauuk" >  </a>
 
 
@@ -38,7 +38,7 @@
     <div id="togglemenu">
     <ul id="menutitles2">
 
-<li > <a href="cabinet.php">LE CABINET</a>   </li>
+<li id="firm"> <a href="cabinet.php">LE CABINET</a>   </li>
 <li> <a href="equipe.php">L'ÉQUIPE</a> </li>
 <li> <a href="expertises.php">NOS EXPERTISES</a></li>
 <li> <a href="">ACTUALITÉS</a></li>

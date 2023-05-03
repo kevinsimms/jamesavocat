@@ -42,38 +42,39 @@ include "menu.php";
 ?>
 
 
-<div id="avocatmaispasque">
 
 
 
+<div id="bigwrappersquares">
 
-<div id="windowswrap">
+<br>
+<br>
 
-<img src="images/maispasque1.jpeg" alt ="photo1" class="photomaispasque1" > 
-<div id="firstwindow" onclick="scroll1()">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> </div>
-<div id="secondwindow"onclick="scroll2()"> <div class="etiquettemaispasque"> DROIT COMMERCIAL</div>  </div>
-<div id="thirdwindow" onclick="scroll3()">  <div class="etiquettemaispasque" id="sixth"> DROIT IMMOBILIER</div>  </div>
+<div id="wrapsquares">
 
-<div id="verticalbar1"></div>
-<div id="verticalbar2"></div> 
-<div id="verticalbar3"></div> 
+<div id="firstwindow" onclick="firstwin()">  <div class="etiquettemaispasque"> DROIT SOCIAL</div> <img src="images/maispasquebis1.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="secondwindow" onclick="secondwin()">  <div class="etiquettemaispasque"> DROIT COMMERCIAL</div> <img src="images/maispasquebis2.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="thirdwindow" onclick="thirdwin()">  <div class="etiquettemaispasque"> DROIT IMMOBILIER</div> <img src="images/maispasquebis3.jpeg" alt ="photo1" class="photomaispasque1"  > </div>
 
 
 </div>
 
+<br>
 
-<div id="secondwindowline">
-<img src="images/maispasque2.jpeg" alt ="photo1" class="photomaispasque" > 
-<div id="fourthwindow"onclick="scroll4()">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> </div>
-<div id="fifthwindow" onclick="scroll5()">  <div class="etiquettemaispasque"> DROIT FISCAL</div> </div>
-<div id="sixthwindow" onclick="scroll6()">  <div class="etiquettemaispasque" id="sixth2" > PROPRIÉTÉ INTELLECTUELLE</div> </div>
-<div id="verticalbar1"></div>
-<div id="verticalbar2"></div> 
+
+
+<div id="wrapsquares">
+
+
+<div id="fourthwindow" onclick="fourthwin()">  <div class="etiquettemaispasque"> DROIT DES SOCIÉTÉS</div> <img src="images/maispasquebis4.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="fifthwindow" onclick="fifthwin()">  <div class="etiquettemaispasque"> DROIT FISCAL</div> <img src="images/maispasquebis5.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+<div id="sixthwindow" onclick="sixtwin()">  <div class="etiquettemaispasque2"> PROPRIÉTÉ <br id="split">INTELLECTUELLE</div> <img src="images/maispasquebis6.jpeg" alt ="photo1" class="photomaispasque1" > </div>
+
 
 </div>
 
-
-
+<br>
+<br>
 </div>
 
 

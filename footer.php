@@ -9,7 +9,7 @@
 
 <div id="footerleft">
 
-<a href="home.php"><img src="images/jamesavocatlogoblanc.png" alt ="logo avocat" class="logoavocatblanc" ></a>
+<a href="https://www.james-avocats.fr"><img src="images/jamesavocatlogoblanc.png" alt ="logo avocat" class="logoavocatblanc" ></a>
 
 <p>17-19 Boulevard Montmartre 75002 PARIS</p>
 <p id="copy"> © 2022 JAMES AVOCATS </p>

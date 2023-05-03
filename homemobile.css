@@ -8,9 +8,10 @@
 
 
     #firsttitle{
-        
+       
           font-size: 68px;
-          margin-top: -33%;
+          margin-top: -37%;
+         
       }
 
 
@@ -39,8 +40,14 @@
     }
     
     #secondpartinner h2{
+
+        -moz-font-smoothing: none;
+
+-webkit-font-smoothing: antialiased;
         margin-left: -50px;
+      
       font-family: mySecFont;
+      font-weight: 100;
         font-size: 60px;
         width: 105%;
     }
@@ -78,7 +85,13 @@
 
 
 #titleoffourth h4{
-   
+
+    font-family: mySecFont;
+    -moz-font-smoothing: none;
+    
+    -webkit-font-smoothing: antialiased;
+  font-weight: 100;
+
     font-size: 60px;
   
        
@@ -127,12 +140,13 @@
 
 #avocatmaispasque{
     
-   margin-top: 600px;
+   margin-top: 1000px;
    
    }
 
 
    #maispasquetitle h2{
+    font-weight: 100;
 text-align: left;
 font-size: 60px;
 width: 180%;
@@ -142,19 +156,32 @@ width: 180%;
    #maispasquetitle p{
    text-align: left;
     font-size: 40px;
-    width: 180%;
+    width: 190%;
    }
 
 
    .etiquettemaispasque{
   text-align: left;
-   font-size: 29px;
+   font-size: 28px;
     height: 80px;
     width: 238px;
+    margin-left: -15px;
    
   
    
    }
+
+   .etiquettemaispasque2{
+    text-align: left;
+     font-size: 28px;
+      height: 80px;
+      width: 238px;
+      letter-spacing: -1px;
+      margin-left: -15px;
+     
+    
+     
+     }
 
 
 
