@@ -33,7 +33,7 @@ include "menueng.php";
 ?>
 
 
-<img src="images/photoensembleavocat.jpeg" alt ="photo1" class="photoensemble reveal" > 
+<img src="images/JAMES+Groupe+Complet.jpg" alt ="photo1" class="photoensemble reveal" > 
 
 
 
@@ -89,6 +89,28 @@ include "menueng.php";
 
 
 
+<div id="poster1" class="poster1reveal4" onclick="vallade()">
+<img src="images/vallade.jpg" alt ="photo1" class="photoavocat" > 
+<div id=name6>
+<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
+
+<h5>Associate</h5>
+</div>
+</div>
+
+
+
+<div id="poster1" class="poster1reveal4" onclick="abdelmoumene()">
+<img src="images/abdelmoumene.jpg" alt ="photo1" class="photoavocat" > 
+<div id=name7>
+<h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
+
+<h5>Attorney</h5>
+</div>
+</div>
+
+
+
 
 <div id="poster1" class="poster1reveal4" onclick="cusset()">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
@@ -101,25 +123,7 @@ include "menueng.php";
 
 
 
-<div id="poster1" class="poster1reveal4" onclick="vallade()">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<div id=name6>
-<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
 
-<h5>Legal assistant</h5>
-</div>
-</div>
-
-
-
-<div id="poster1" class="poster1reveal4" onclick="abdelmoumene()">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<div id=name7>
-<h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
-
-<h5>Legal assistant</h5>
-</div>
-</div>
 
 
 
@@ -208,6 +212,18 @@ if($_GET["avo"]=='elodie'){
       
       }
 
+
+      if($_GET["avo"]=='val'){
+  
+        echo '<script>vallade();  document.getElementById("titreavocat6").scrollIntoView();</script>';
+        
+        }
+
+      if($_GET["avo"]=='abdel'){
+  
+        echo '<script>abdelmoumene();  document.getElementById("titreavocat7").scrollIntoView();</script>';
+        
+        }
 
 
     }

@@ -2,8 +2,8 @@ document.getElementsByClassName("poster1reveal")[0].addEventListener("click", sc
 document.getElementsByClassName("poster1reveal2")[0].addEventListener("click", scroll8);
 document.getElementsByClassName("poster1reveal3")[0].addEventListener("click", scroll9);
 document.getElementsByClassName("poster1reveal4")[0].addEventListener("click", scroll10);
-document.getElementsByClassName("poster1reveal5")[0].addEventListener("click", scroll11);
-
+/* document.getElementsByClassName("poster1reveal5")[0].addEventListener("click", scroll11);
+ */
 
 function scroll7(){
 

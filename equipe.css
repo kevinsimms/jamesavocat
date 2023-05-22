@@ -95,7 +95,7 @@
     position: relative;
     float: left;
     width: 200px;
-
+margin-bottom: -20px;
     
  }
 
@@ -193,6 +193,8 @@ transition-property: transform;
         font-family: Helvetica Neue;
         font-weight: 100;
         padding-left: 5%;
+
+        margin-top:-20px;
       
      }
 
@@ -244,7 +246,7 @@ transition-property: transform;
     
      grid-template-columns:  200px 200px 200px 200px 200px;
   
-   
+   width: 1230px;
 
 
 

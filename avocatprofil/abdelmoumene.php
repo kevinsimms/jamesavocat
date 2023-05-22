@@ -15,13 +15,13 @@
 <img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
 
- <h2 id="titreavocat" class="profilname2">Lina ABDELMOUMENE</h2> 
+ <h2 id="titreavocat7" class="profilname2">Lina ABDELMOUMENE</h2> 
 <div class="imagewrap" id="balise">
 
-<img src="images/passelac.jpeg" alt ="photo1" class="photoavocatgrand" >
+<img src="images/abdelmoumene.jpg" alt ="photo1" class="photoavocatgrand" >
 
-<h2 class="mail"> <a href="mailto:ac.passelac@james-avocats.fr">ac.passelac@james-avocats.fr</a></h2>
-<a  href="https://www.linkedin.com/in/anne-charlotte-passelac-86a2a010/" target="_blank"> <img src="images/LinkedIn-Symbole.png" class="photolinkdin" alt ="linkdin"  height="50"></a>
+<h2 class="mail"> <a href="mailto:lina.abdelmoumene@james-avocats.fr">lina.abdelmoumene@james-avocats.fr</a></h2>
+<a  href="https://www.linkedin.com/in/lina-abdelmoumene-67b8b51b6" target="_blank"> <img src="images/LinkedIn-Symbole.png" class="photolinkdin" alt ="linkdin"  height="50"></a>
 
 
 </div>

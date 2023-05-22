@@ -9,6 +9,7 @@
 
 
 .profilbigwrap{
+    
    height: 50%;
     position: relative;
     background-color: white;
@@ -21,6 +22,7 @@
     
     font-weight: 100;
     
+    margin-top: -70px;
          
 }
 
@@ -37,6 +39,7 @@
      width:100%;
      
      font-weight: 100;
+     margin-top: -70px;
           
  }
 
@@ -52,6 +55,8 @@
      width:100%;
      
      font-weight: 100;
+
+     margin-top: -70px;
           
  }
 
@@ -68,6 +73,8 @@
      width:100%;
      
      font-weight: 100;
+
+     margin-top: -70px;
           
  }
 
@@ -83,6 +90,43 @@
      width:100%;
      
      font-weight: 100;
+
+     margin-top: -70px;
+          
+ }
+
+ .profilbigwrap6{
+    height: 50%;
+     position: relative;
+     background-color: white;
+     
+ 
+     display: none;
+     grid-template-columns:100%;
+    
+     width:100%;
+     
+     font-weight: 100;
+
+     margin-top: -70px;
+          
+ }
+
+
+ .profilbigwrap7{
+    height: 50%;
+     position: relative;
+     background-color: white;
+     
+ 
+     display: none;
+     grid-template-columns:100%;
+    
+     width:100%;
+     
+     font-weight: 100;
+
+     margin-top: -70px;
           
  }
 

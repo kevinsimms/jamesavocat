@@ -1,20 +1,46 @@
+@font-face {
+  font-family: HelvBlack;
+  src: url(../HelveticaNeue-Black.otf);
+ 
+}
 
+@font-face {
+  font-family: Helvthin;
+  src: url(../HelveticaNeueThin.ttf);
+ 
+}
 
 .logo1{
-/* width:356,25px;
-height: 33px; */
-
-width: 16vw;
-height: 1.74vw;
-
-max-height: 50px;
-max-width: 480px;
-padding-top: 10px;
-margin-top: 0px;
-margin-left: 12px;
-z-index: 150;
-position: absolute;
+  width: 16vw;
+  height: 1.74vw;
+  
+  max-height: 50px;
+  max-width: 480px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-left: 12px;
+  z-index: 150;
+  position: absolute;
 }
+
+.logo2{
+  font-family: Helvthin;
+  font-size: 23px;
+  
+  /* width:356,25px;
+  height: 33px; */
+  
+ /*  width: 16vw;
+  height: 1.8vw; */
+  
+  max-height: 50px;
+  max-width: 480px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-left: 107px;
+  z-index: 150;
+  position: absolute;
+  }
 
 
 a{
@@ -23,7 +49,7 @@ a{
   
 }
 
-a:hover{
+#menutitles a:hover{
   color:#FFAA46;
 }
 
@@ -79,7 +105,7 @@ font-weight: 100;
     background-color: black;
     display: block;
     position: absolute;
-    margin-left: 50vw;
+    margin-left: 49.9vw;
     margin-top: 17px;
 }
 

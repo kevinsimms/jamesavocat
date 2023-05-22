@@ -15,13 +15,13 @@
 <img id="flechegauche" onclick="left()"  class="flechegauch"src="images/fleche_gauche.png" alt ="fgauche" >  
 
 
- <h2 id="titreavocat" class="profilname2">Lucie VALLADE</h2> 
+ <h2 id="titreavocat6" class="profilname2">Lucie VALLADE</h2> 
 <div class="imagewrap" id="balise">
 
-<img src="images/passelac.jpeg" alt ="photo1" class="photoavocatgrand" >
+<img src="images/vallade.jpg" alt ="photo1" class="photoavocatgrand" >
 
-<h2 class="mail"> <a href="mailto:ac.passelac@james-avocats.fr">ac.passelac@james-avocats.fr</a></h2>
-<a  href="https://www.linkedin.com/in/anne-charlotte-passelac-86a2a010/" target="_blank"> <img src="images/LinkedIn-Symbole.png" class="photolinkdin" alt ="linkdin"  height="50"></a>
+<h2 class="mail"> <a href="mailto:l.vallade@james-avocats.fr">l.vallade@james-avocats.fr</a></h2>
+<a  href="https://www.linkedin.com/in/lucievallade" target="_blank"> <img src="images/LinkedIn-Symbole.png" class="photolinkdin" alt ="linkdin"  height="50"></a>
 
 
 </div>

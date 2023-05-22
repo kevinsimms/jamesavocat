@@ -627,7 +627,8 @@ transition-property: transform;
 
 
  #poster1{
-   
+  
+   margin-bottom: -15px;
     margin-top: 25px;
     font-family: helvetica;
     margin-left: 5%;
@@ -683,7 +684,7 @@ transition-property: transform;
    /*   fifthpart */
 
    #avocatmaispasque{
-    
+    margin-top: -50px;
     width: 100%;
    
     top: 0px;
@@ -987,7 +988,7 @@ width: 120%;
     grid-gap: 50px; 
      margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    width: 1220px;
     
 
 
@@ -1016,7 +1017,7 @@ width: 120%;
     #thirdpartbis{
        
         
-        height: 1550px; 
+        height: 1050px; 
       
     }
 
@@ -1049,7 +1050,12 @@ width: 120%;
 @media (max-width: 990px){
 
 
-
+ #thirdpartbis{
+       
+        
+        height: 1450px; 
+      
+    }
 
     #posterensemble{
        

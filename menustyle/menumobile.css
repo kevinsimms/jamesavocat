@@ -11,13 +11,24 @@
 
 
 
+
 .logo1{
-    
+   
     width: 48vw;
     height: 5.22vw;
     
    
     }
+
+    .logo2{
+   
+        /* width: 48vw;
+        height: 5vw; */
+       font-size: 50px;
+       margin-left: 195px;
+        
+       
+        }
 
 
 
@@ -78,14 +89,20 @@
 
 }
 
+#menutitles2{
+    margin-top: 100px;
+    
+}
+
+
 #menutitles2 a{
-    font-size: 70px;
-    padding-bottom: 150px;
+    font-size: 50px;
+    padding-bottom: 50px;
 }
 
 #menutitles2 li{
   padding-left: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 #togglemenu{
@@ -104,3 +121,116 @@
 
 
 }
+
+
+
+
+@media (max-device-width: 550px){
+
+
+    #menutitles2{
+        margin-top: 180px;
+        
+    }
+
+
+    #wrap{ 
+        height: 200px;
+      
+    }
+    
+    
+    
+    .logo1{
+        
+        width: 48vw;
+        height: 5.22vw;
+        
+       
+        }
+    
+    
+    
+    #verticalline{
+       
+        margin-top: 77px;
+    }
+    
+    
+    #button{
+        margin-top: 100px;
+       
+    }
+    
+      
+    #line{
+        width:92px;
+        border: 1px solid #000000;
+        height:0px ;
+        margin-top:4px;
+        position: absolute;
+    }
+    
+    #line2{
+        width:92px;
+        border: 1px solid #000000;
+        height:0px ;
+        margin-top:25px;
+        position: absolute;
+        
+    }
+    
+    #line3{
+        width:92px;
+        border: 1px solid #000000;
+        height:0px ;
+        margin-top:46px;
+        position: absolute;
+        
+    }
+    
+    
+    
+    .drapeauuk{
+        margin-left: 87%;
+        margin-top: 25px;
+        height: 70px;
+        width: 110px;
+    
+    }
+    
+    
+    .drapeaufrance{
+        margin-left: 87%;
+        margin-top: 20px;
+        height: 90px;
+        width: 110px;
+    
+    }
+    
+    #menutitles2 a{
+        font-size: 70px;
+        padding-bottom: 150px;
+    }
+    
+    #menutitles2 li{
+      padding-left: 100px;
+        padding-bottom: 50px;
+    }
+    
+    #togglemenu{
+        margin-top: 100px;
+        margin-left: -1501px;
+        width:1000px;
+    
+    }
+    
+    
+    #linespace{
+        margin-top: -6px;
+    }
+    
+    
+    
+    
+    }

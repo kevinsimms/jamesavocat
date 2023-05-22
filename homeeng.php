@@ -72,7 +72,7 @@ include "menueng.php";
 <!-- third part -->
 
 
-<img src="images/photoensemblebig.jpeg" alt ="photo1" class="photoensemble reveal" > 
+<img src="images/JAMES+Groupe+Complet.jpg" alt ="photo1" class="photoensemble reveal" > 
 
 <!-- <div id="malike">Malika Cusset</div>
 <div id="lavergne">Anne-Laure Lavergne</div>
@@ -145,8 +145,25 @@ include "menueng.php";
 
 
 
+<div id="poster1" class="poster1reveal5" onclick="scroll12()">
+<img src="images/vallade.jpg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
+<h5>Associate</h5>
+</div>
 
-<div id="poster1" class="poster1reveal5">
+
+
+<div id="poster1" class="poster1reveal5" onclick="scroll13()">
+<img src="images/abdelmoumene.jpg" alt ="photo1" class="photoavocat" > 
+<h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
+<h5>Attorney</h5>
+</div>
+
+
+
+
+
+<div id="poster1" class="poster1reveal5" onclick="scroll11()">
 <img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
 <h4 class="firstname">Malika</h4><h4 class="surname"> CUSSET</h4>
 <h5>Legal assistant</h5>
@@ -154,19 +171,7 @@ include "menueng.php";
 
 
 
-<div id="poster1" class="poster1reveal5" onclick="scroll12()">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
-<h5>Assistante juridique</h5>
-</div>
 
-
-
-<div id="poster1" class="poster1reveal5" onclick="scroll13()">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
-<h5>Assistante juridique</h5>
-</div>
 
 
 

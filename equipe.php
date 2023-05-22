@@ -34,7 +34,7 @@ include "menu.php";
 ?>
 
 
-<img src="images/photoensembleavocat.jpeg" alt ="photo1" class="photoensemble reveal" > 
+<img src="images/JAMES+Groupe+Complet.jpg" alt ="photo1" class="photoensemble reveal" > 
 
 
 
@@ -89,6 +89,25 @@ include "menu.php";
 </div>
 
 
+<div id="poster1" class="poster1reveal4" onclick="vallade()">
+<img src="images/vallade.jpg" alt ="photo1" class="photoavocat" > 
+<div id=name6>
+<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
+
+<h5>Avocate collaboratrice</h5>
+</div>
+</div>
+
+
+<div id="poster1" class="poster1reveal4" onclick="abdelmoumene()">
+<img src="images/abdelmoumene.jpg" alt ="photo1" class="photoavocat" > 
+<div id=name7>
+<h4 class="firstname">Lina</h4><h4 id="abdel" class="surname"> ABDELMOUMENE</h4>
+
+<h5>Juriste</h5>
+</div>
+</div>
+
 
 
 <div id="poster1" class="poster1reveal4" onclick="cusset()">
@@ -102,24 +121,7 @@ include "menu.php";
 
 
 
-<div id="poster1" class="poster1reveal4" onclick="vallade()">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<div id=name6>
-<h4 class="firstname">Lucie</h4><h4 class="surname"> VALLADE</h4>
 
-<h5>Assistante juridique</h5>
-</div>
-</div>
-
-
-<div id="poster1" class="poster1reveal4" onclick="abdelmoumene()">
-<img src="images/ousset.jpeg" alt ="photo1" class="photoavocat" > 
-<div id=name7>
-<h4 class="firstname">Lina</h4><h4 class="surname"> ABDELMOUMENE</h4>
-
-<h5>Assistante juridique</h5>
-</div>
-</div>
 
 
 
